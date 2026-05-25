@@ -13,7 +13,7 @@ export default async function BlogPage() {
   const supabase = createPublicClient();
   const { data: posts } = await supabase
     .from("posts")
-    .select("id, title, slug, excerpt, cover_image, created_at")
+    .select("id, title, slug, excerpt, cover_image, created_at, content")
     .eq("published", true)
     .order("created_at", { ascending: false });
 
@@ -40,7 +40,9 @@ export default async function BlogPage() {
             </div>
           ) : (
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {posts.map((post) => (
+              {posts.map((post) => {
+                const readTime = Math.ceil((post.content?.split(' ').length || 0) / 200);
+                return (
                 <div key={post.id} className="bg-white rounded-2xl overflow-hidden border border-gray-100 shadow-sm group hover:shadow-md transition-all">
                   <div className="h-48 bg-gray-100 relative overflow-hidden">
                     {post.cover_image ? (
@@ -53,9 +55,11 @@ export default async function BlogPage() {
                     )}
                   </div>
                   <div className="p-6">
-                    <p className="text-xs text-gold font-bold mb-2">
-                      {new Date(post.created_at).toLocaleDateString()}
-                    </p>
+                    <div className="flex items-center gap-3 text-xs text-gold font-bold mb-2">
+                      <span>{new Date(post.created_at).toLocaleDateString()}</span>
+                      <span className="text-gray-300">•</span>
+                      <span>{readTime} min read</span>
+                    </div>
                     <h2 className="font-display font-bold text-navy text-xl mb-3 line-clamp-2 group-hover:text-gold transition-colors">
                       {post.title}
                     </h2>
@@ -67,7 +71,8 @@ export default async function BlogPage() {
                     </Link>
                   </div>
                 </div>
-              ))}
+                );
+              })}
             </div>
           )}
         </div>
