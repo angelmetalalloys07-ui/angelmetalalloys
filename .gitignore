@@ -26,7 +26,9 @@ yarn-debug.log*
 yarn-error.log*
 
 # local env files
+.env
 .env*.local
+.env.local
 
 # vercel
 .vercel
@@ -34,3 +36,13 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Seed & utility scripts (local use only)
+seed.js
+seed-products.sql
+seed-pending-products.sql
+check.js
+run-seed.js
+make-admin.js
+make-admin.sql
+test.js
