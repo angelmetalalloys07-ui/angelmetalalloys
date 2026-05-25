@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import { INDUSTRIES } from "@/types";
-import { Flame, FlaskConical, Droplets, Zap, Microscope, Anchor, UtensilsCrossed, Atom, CheckCircle2, ArrowRight } from "lucide-react";
+import { Flame, FlaskConical, Droplets, Zap, Microscope, Anchor, UtensilsCrossed, Atom, ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Industries Served | SS Pipe Fittings for Oil & Gas, Petrochemical, Power & More",
@@ -12,6 +13,17 @@ export const metadata: Metadata = {
 
 const iconMap: Record<string, React.ElementType> = {
   Flame, FlaskConical, Droplets, Zap, Microscope, Anchor, UtensilsCrossed, Atom,
+};
+
+const industryImages: Record<string, string> = {
+  "oil-gas": "https://res.cloudinary.com/doudwrrwz/image/upload/q_auto/f_auto/v1779700205/refineries-industry_dzbvgq.webp",
+  "petrochemical": "https://res.cloudinary.com/doudwrrwz/image/upload/q_auto/f_auto/v1779700205/petrochemical_en_co_eugfo3.jpg",
+  "water-treatment": "https://res.cloudinary.com/doudwrrwz/image/upload/q_auto/f_auto/v1779700204/pengolahan-air-limbah_wo4p79.webp",
+  "power-generation": "https://res.cloudinary.com/doudwrrwz/image/upload/q_auto/f_auto/v1779700204/IMG_7126_01_39f416721d_bpuejt.jpg",
+  "pharmaceutical": "https://res.cloudinary.com/doudwrrwz/image/upload/q_auto/f_auto/v1779700204/pharmaceutical-reactor_jacpvn.jpg",
+  "shipbuilding": "https://res.cloudinary.com/doudwrrwz/image/upload/q_auto/f_auto/v1779700204/FOREIGN169716534863062WC2P4Z4C_ihbjlg.jpg",
+  "food-beverage": "https://res.cloudinary.com/doudwrrwz/image/upload/q_auto/f_auto/v1779700205/dw1_91_sisk95.webp",
+  "chemical": "https://res.cloudinary.com/doudwrrwz/image/upload/q_auto/f_auto/v1779700204/chemical-process-2_0_ir2svs.jpg",
 };
 
 const industryDetails: Record<string, { products: string[]; grades: string[]; standards: string[] }> = {
@@ -79,6 +91,7 @@ export default function IndustriesPage() {
           {INDUSTRIES.map((industry, idx) => {
             const Icon = iconMap[industry.icon] ?? Flame;
             const details = industryDetails[industry.slug];
+            const image = industryImages[industry.slug];
             return (
               <div
                 key={industry.slug}
@@ -139,25 +152,36 @@ export default function IndustriesPage() {
                   </Link>
                 </div>
 
-                {/* Visual Card */}
+                {/* Industry Image */}
                 <div className={idx % 2 === 1 ? "lg:col-start-1 lg:row-start-1" : ""}>
-                  <div
-                    className="rounded-3xl p-8 h-72 flex items-center justify-center relative overflow-hidden"
-                    style={{
-                      background: `linear-gradient(135deg, ${industry.color}15 0%, #0a1628 100%)`,
-                      border: `1px solid ${industry.color}20`,
-                    }}
-                  >
-                    <div className="absolute inset-0 hero-grid opacity-20" />
-                    <div className="relative text-center">
+                  <div className="rounded-3xl overflow-hidden h-80 relative shadow-xl group">
+                    {image ? (
+                      <Image
+                        src={image}
+                        alt={`SS Fittings for ${industry.name}`}
+                        fill
+                        sizes="(max-width: 768px) 100vw, 50vw"
+                        className="object-cover group-hover:scale-105 transition-transform duration-700"
+                        loading={idx < 2 ? "eager" : "lazy"}
+                      />
+                    ) : (
                       <div
-                        className="w-24 h-24 rounded-3xl mx-auto mb-4 flex items-center justify-center"
-                        style={{ backgroundColor: `${industry.color}25` }}
+                        className="h-full flex items-center justify-center"
+                        style={{ background: `linear-gradient(135deg, ${industry.color}15 0%, #0a1628 100%)` }}
                       >
-                        <Icon size={48} style={{ color: industry.color === "#0a1628" ? "#d4922a" : industry.color }} />
+                        <Icon size={64} style={{ color: industry.color }} />
                       </div>
-                      <div className="text-white font-display font-bold text-xl">{industry.name}</div>
-                      <div className="text-silver/50 text-sm mt-1">Industry Solutions</div>
+                    )}
+                    {/* Overlay label */}
+                    <div className="absolute inset-0 bg-gradient-to-t from-navy/70 via-transparent to-transparent" />
+                    <div className="absolute bottom-0 left-0 right-0 p-6">
+                      <div
+                        className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full text-xs font-bold"
+                        style={{ backgroundColor: `${industry.color}CC`, color: "#fff" }}
+                      >
+                        <Icon size={13} />
+                        {industry.name}
+                      </div>
                     </div>
                   </div>
                 </div>
