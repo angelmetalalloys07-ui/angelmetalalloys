@@ -225,9 +225,6 @@ export default async function ProductDetailPage({ params }: Props) {
                       Global shipping (FOB, CIF, DDP)
                     </li>
                   </ul>
-                  <a href="#" className="mt-5 flex items-center justify-center gap-2 w-full py-2.5 rounded-xl border border-gray-200 text-gray-600 text-sm font-semibold hover:bg-gray-50 transition-colors">
-                    <FileDown size={16} /> Download Catalog
-                  </a>
                 </div>
               </div>
             </div>
