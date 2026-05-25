@@ -151,6 +151,13 @@ export const PRODUCT_CATEGORIES = [
     icon: "Circle",
   },
   {
+    slug: "ss-flanges",
+    label: "SS Flanges",
+    shortLabel: "SS Flanges",
+    description: "Premium stainless steel flanges designed for high-pressure, corrosive environments.",
+    icon: "CircleDot",
+  },
+  {
     slug: "forged-fittings",
     label: "Forged Fittings",
     shortLabel: "Forged",
@@ -191,6 +198,34 @@ export const PRODUCT_CATEGORIES = [
     shortLabel: "Valves",
     description: "Gate, globe, check, and ball valves for robust flow control in high-pressure applications.",
     icon: "Circle",
+  },
+  {
+    slug: "fasteners",
+    label: "Industrial Fasteners",
+    shortLabel: "Fasteners",
+    description: "High-strength stainless steel bolts, nuts, washers, and studs for secure industrial connections.",
+    icon: "Wrench",
+  },
+  {
+    slug: "dairy-fittings",
+    label: "Dairy Fittings",
+    shortLabel: "Dairy",
+    description: "Sanitary stainless steel fittings for food, beverage, and pharmaceutical industries.",
+    icon: "Droplets",
+  },
+  {
+    slug: "instrumentation-fittings",
+    label: "Instrumentation Fittings",
+    shortLabel: "Instrumentation",
+    description: "Precision double ferrule tube fittings for high-pressure fluid and gas systems.",
+    icon: "Settings2",
+  },
+  {
+    slug: "sheets-plates-coils",
+    label: "Sheets, Plates & Coils",
+    shortLabel: "Sheets & Plates",
+    description: "High-quality stainless steel sheets, plates, and coils in various grades and finishes.",
+    icon: "Layers",
   },
 ];
 
