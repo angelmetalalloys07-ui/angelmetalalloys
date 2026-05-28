@@ -28,7 +28,7 @@ export default function WeightCalculator() {
   const [flatLength, setFlatLength] = useState<number>(1);
 
   const calculateWeight = () => {
-    // Density of Stainless Steel ~ 7.93 g/cm3 for 304/316
+    // Density of Stainless Steel/Carbon Steel ~ 7.93 g/cm3 for 304/316
     const density = 0.00000793; // kg/mm3
     
     switch (mode) {
@@ -59,7 +59,7 @@ export default function WeightCalculator() {
           <h2 className="text-white font-display font-bold text-xl">Interactive Weight Calculator</h2>
         </div>
         <p className="text-silver/60 text-sm mt-2">
-          Calculate the theoretical weight of stainless steel products (Density: 7.93 g/cm³).
+          Calculate the theoretical weight of stainless steel/carbon steel products (Density: 7.93 g/cm³).
         </p>
       </div>
 

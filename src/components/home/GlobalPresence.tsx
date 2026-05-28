@@ -30,7 +30,7 @@ export default function GlobalPresence() {
             <span className="text-gradient-gold">30+ Countries</span> Worldwide
           </h2>
           <p className="section-desc mx-auto text-center">
-            From our factory in Ahmedabad, Gujarat — we ship SS pipe fittings and flanges 
+            From our factory in Ahmedabad, Gujarat — we ship SS/Carbon Steel pipe fittings and flanges 
             to buyers across 6 continents.
           </p>
         </div>

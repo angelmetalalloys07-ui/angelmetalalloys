@@ -5,9 +5,9 @@ import { INDUSTRIES } from "@/types";
 import { Flame, FlaskConical, Droplets, Zap, Microscope, Anchor, UtensilsCrossed, Atom, ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Industries Served | SS Pipe Fittings for Oil & Gas, Petrochemical, Power & More",
+  title: "Industries Served | SS/Carbon Steel Pipe Fittings for Oil & Gas, Petrochemical, Power & More",
   description:
-    "Angel Metal & Alloys supplies SS pipe fittings and flanges to Oil & Gas, Petrochemical, Water Treatment, Power Generation, Pharmaceutical, Shipbuilding, and Food & Beverage industries.",
+    "Angel Metal & Alloys supplies SS/Carbon Steel pipe fittings and flanges to Oil & Gas, Petrochemical, Water Treatment, Power Generation, Pharmaceutical, Dairy Processing, and Food & Beverage industries.",
   alternates: { canonical: "/industries" },
 };
 
@@ -21,50 +21,50 @@ const industryImages: Record<string, string> = {
   "water-treatment": "https://res.cloudinary.com/doudwrrwz/image/upload/q_auto/f_auto/v1779700204/pengolahan-air-limbah_wo4p79.webp",
   "power-generation": "https://res.cloudinary.com/doudwrrwz/image/upload/q_auto/f_auto/v1779700204/IMG_7126_01_39f416721d_bpuejt.jpg",
   "pharmaceutical": "https://res.cloudinary.com/doudwrrwz/image/upload/q_auto/f_auto/v1779700204/pharmaceutical-reactor_jacpvn.jpg",
-  "shipbuilding": "https://res.cloudinary.com/doudwrrwz/image/upload/q_auto/f_auto/v1779700204/FOREIGN169716534863062WC2P4Z4C_ihbjlg.jpg",
+  "dairy-processing": "https://res.cloudinary.com/doudwrrwz/image/upload/q_auto/f_auto/v1779700204/chemical-process-2_0_ir2svs.jpg",
   "food-beverage": "https://res.cloudinary.com/doudwrrwz/image/upload/q_auto/f_auto/v1779700205/dw1_91_sisk95.webp",
-  "chemical": "https://res.cloudinary.com/doudwrrwz/image/upload/q_auto/f_auto/v1779700204/chemical-process-2_0_ir2svs.jpg",
+  "chemical": "https://res.cloudinary.com/doudwrrwz/image/upload/q_auto/f_auto/v1779776144/869302164-petrochemical-plant-16x9_hczqao.jpg",
 };
 
 const industryDetails: Record<string, { products: string[]; grades: string[]; standards: string[] }> = {
   "oil-gas": {
     products: ["Weld Neck Flanges", "Butt Weld Elbows", "Tees", "Reducers", "Blind Flanges", "Olets"],
-    grades: ["SS 316L", "Duplex 2205", "Super Duplex 2507", "SS 321", "Inconel 625"],
+    grades: ["SS/Carbon Steel 316L", "Duplex 2205", "Super Duplex 2507", "SS/Carbon Steel 321", "Inconel 625"],
     standards: ["ASME B16.9", "ASME B16.5", "ASTM A403", "ASTM A182", "NACE MR0175"],
   },
   "petrochemical": {
     products: ["Equal Tees", "Reducers", "Slip-On Flanges", "Weld Neck Flanges", "Stub Ends"],
-    grades: ["SS 316L", "SS 904L", "Duplex 2205", "SS 317L"],
+    grades: ["SS/Carbon Steel 316L", "SS/Carbon Steel 904L", "Duplex 2205", "SS/Carbon Steel 317L"],
     standards: ["ASME B16.9", "ASTM A403", "EN 10253", "ASME B16.5"],
   },
   "water-treatment": {
     products: ["Slip-On Flanges", "Butt Weld Fittings", "Socket Weld Fittings", "Pipe Nipples"],
-    grades: ["SS 316L", "Duplex 2205", "SS 304L"],
+    grades: ["SS/Carbon Steel 316L", "Duplex 2205", "SS/Carbon Steel 304L"],
     standards: ["ASME B16.9", "ASTM A403", "EN 10253"],
   },
   "power-generation": {
     products: ["Weld Neck Flanges", "Elbows", "Tees", "Reducers"],
-    grades: ["SS 321", "SS 347", "SS 316H", "Duplex 2205"],
+    grades: ["SS/Carbon Steel 321", "SS/Carbon Steel 347", "SS/Carbon Steel 316H", "Duplex 2205"],
     standards: ["ASME B16.5", "ASTM A182 F321", "IBR"],
   },
   "pharmaceutical": {
     products: ["Butt Weld Fittings", "Sanitary Flanges", "Pipe Nipples"],
-    grades: ["SS 316L (Ra < 0.8µm)", "SS 304L"],
+    grades: ["SS/Carbon Steel 316L (Ra < 0.8µm)", "SS/Carbon Steel 304L"],
     standards: ["ASME BPE", "3-A Sanitary", "FDA Compliant"],
   },
-  "shipbuilding": {
-    products: ["Weld Neck Flanges", "Butt Weld Fittings", "Forged Fittings"],
-    grades: ["Super Duplex 2507", "Duplex 2205", "SS 316L"],
-    standards: ["ASME B16.5", "DNV GL", "Lloyd's Register"],
+  "dairy-processing": {
+    products: ["Sanitary Fittings", "Tri-Clamp Fittings", "Dairy Valves", "Pipe Nipples"],
+    grades: ["SS/Carbon Steel 304", "SS/Carbon Steel 316L"],
+    standards: ["3-A Sanitary", "SMS", "DIN 11850", "IDF"],
   },
   "food-beverage": {
     products: ["Sanitary Fittings", "Butt Weld Elbows", "Reducers", "Pipe Nipples"],
-    grades: ["SS 316L", "SS 304L"],
+    grades: ["SS/Carbon Steel 316L", "SS/Carbon Steel 304L"],
     standards: ["3-A Sanitary", "EHEDG", "FDA 21 CFR"],
   },
   "chemical": {
     products: ["All Fitting Types", "All Flange Types", "Forged Fittings"],
-    grades: ["SS 904L", "SS 316L", "Duplex 2205", "Super Duplex 2507", "SS 317L"],
+    grades: ["SS/Carbon Steel 904L", "SS/Carbon Steel 316L", "Duplex 2205", "Super Duplex 2507", "SS/Carbon Steel 317L"],
     standards: ["ASME B16.9", "ASTM A403", "EN 10253"],
   },
 };
@@ -73,14 +73,25 @@ export default function IndustriesPage() {
   return (
     <>
       {/* Hero */}
-      <section className="bg-gradient-navy py-20 relative overflow-hidden">
-        <div className="absolute inset-0 hero-grid opacity-20" />
-        <div className="section-container relative">
+      <section className="py-24 relative overflow-hidden">
+        {/* Background Image */}
+        <div className="absolute inset-0 z-0">
+          <Image 
+            src="https://res.cloudinary.com/doudwrrwz/image/upload/q_auto/f_auto/v1779779092/ChatGPT_Image_May_26_2026_12_34_43_PM_fkfqdk.png"
+            alt="Industries Background"
+            fill
+            className="object-cover object-center"
+            priority
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-navy/90 via-navy/50 to-transparent" />
+        </div>
+
+        <div className="section-container relative z-10">
           <h1 className="section-heading-white mb-4">
             Industries We <span className="text-gradient-gold">Serve</span>
           </h1>
-          <p className="text-silver/70 text-lg max-w-2xl leading-relaxed">
-            Angel Metal & Alloys supplies critical SS pipe fittings, flanges, and forged 
+          <p className="text-silver/80 text-lg max-w-2xl leading-relaxed">
+            Angel Metal & Alloys supplies critical SS/Carbon Steel pipe fittings, flanges, and forged 
             components to the world&apos;s most demanding industrial sectors.
           </p>
         </div>
@@ -107,7 +118,7 @@ export default function IndustriesPage() {
                     <Icon size={26} style={{ color: industry.color === "#0a1628" ? "#d4922a" : industry.color }} />
                   </div>
                   <h2 className="text-2xl lg:text-3xl font-display font-bold text-navy mb-4">
-                    SS Fittings for{" "}
+                    SS/Carbon Steel Fittings for{" "}
                     <span className="text-gradient-gold">{industry.name}</span>
                   </h2>
                   <p className="text-gray-600 leading-relaxed mb-6">{industry.description}</p>
@@ -158,7 +169,7 @@ export default function IndustriesPage() {
                     {image ? (
                       <Image
                         src={image}
-                        alt={`SS Fittings for ${industry.name}`}
+                        alt={`SS/Carbon Steel Fittings for ${industry.name}`}
                         fill
                         sizes="(max-width: 768px) 100vw, 50vw"
                         className="object-cover group-hover:scale-105 transition-transform duration-700"

@@ -20,21 +20,21 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.angelmetalalloy
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Angel Metal & Alloys | SS Pipe Fittings & Flanges Manufacturer, Ahmedabad",
+    default: "Angel Metal & Alloys | SS/Carbon Steel Pipe Fittings & Flanges Manufacturer, Ahmedabad",
     template: "%s | Angel Metal & Alloys",
   },
   description:
-    "Angel Metal & Alloys — leading manufacturer & exporter of Stainless Steel pipe fittings, flanges & forged components in Ahmedabad, Gujarat. ISO certified. 30+ countries served since 2007.",
+    "Angel Metal & Alloys — leading manufacturer & exporter of Stainless Steel/Carbon Steel pipe fittings, flanges & forged components in Ahmedabad, Gujarat. ISO certified. 30+ countries served since 2007.",
   keywords: [
-    "SS flanges manufacturer Ahmedabad",
-    "stainless steel pipe fittings Gujarat",
+    "SS/Carbon Steel flanges manufacturer Ahmedabad",
+    "stainless steel/carbon steel pipe fittings Gujarat",
     "butt weld fittings exporter India",
-    "SS 316L pipe fittings manufacturer",
+    "SS/Carbon Steel 316L pipe fittings manufacturer",
     "ASME B16.9 fittings India",
     "forged fittings exporter India",
     "pipe fittings manufacturer Gujarat",
     "Angel Metal Alloys Ahmedabad",
-    "stainless steel flanges supplier",
+    "stainless steel/carbon steel flanges supplier",
     "duplex pipe fittings manufacturer India",
   ],
   authors: [{ name: "Angel Metal & Alloys", url: siteUrl }],
@@ -50,22 +50,22 @@ export const metadata: Metadata = {
     locale: "en_IN",
     url: siteUrl,
     siteName: "Angel Metal & Alloys",
-    title: "Angel Metal & Alloys | SS Pipe Fittings & Flanges Manufacturer, Ahmedabad",
+    title: "Angel Metal & Alloys | SS/Carbon Steel Pipe Fittings & Flanges Manufacturer, Ahmedabad",
     description:
-      "Leading manufacturer & exporter of Stainless Steel pipe fittings, flanges & forged components. ISO certified. Export to 30+ countries.",
+      "Leading manufacturer & exporter of Stainless Steel/Carbon Steel pipe fittings, flanges & forged components. ISO certified. Export to 30+ countries.",
     images: [
       {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Angel Metal & Alloys — SS Pipe Fittings Manufacturer",
+        alt: "Angel Metal & Alloys — SS/Carbon Steel Pipe Fittings Manufacturer",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Angel Metal & Alloys | SS Pipe Fittings Manufacturer",
-    description: "ISO certified SS pipe fittings & flanges manufacturer in Ahmedabad. Export to 30+ countries.",
+    title: "Angel Metal & Alloys | SS/Carbon Steel Pipe Fittings Manufacturer",
+    description: "ISO certified SS/Carbon Steel pipe fittings & flanges manufacturer in Ahmedabad. Export to 30+ countries.",
     images: ["/og-image.jpg"],
   },
   alternates: {
@@ -84,13 +84,13 @@ const organizationJsonLd = {
   url: siteUrl,
   logo: `${siteUrl}/logo.png`,
   description:
-    "Manufacturer & exporter of Stainless Steel pipe fittings, flanges and forged components based in Ahmedabad, Gujarat, India.",
+    "Manufacturer & exporter of Stainless Steel/Carbon Steel pipe fittings, flanges and forged components based in Ahmedabad, Gujarat, India.",
   foundingDate: "2007",
   telephone: "+91-9974334455",
   email: "angelmetalalloys@gmail.com",
   address: {
     "@type": "PostalAddress",
-    streetAddress: "B-917 Sun West Bank, Opp Rajasthan Hospital",
+    streetAddress: "B-820 Sun West Bank, Opp Rajasthan Hospital",
     addressLocality: "Ahmedabad",
     addressRegion: "Gujarat",
     postalCode: "380013",
@@ -115,7 +115,6 @@ const organizationJsonLd = {
     },
   ],
   sameAs: [],
-  vatID: "24ESRPM8437G1Z6",
   areaServed: "Worldwide",
   numberOfEmployees: { "@type": "QuantitativeValue", value: 20 },
 };

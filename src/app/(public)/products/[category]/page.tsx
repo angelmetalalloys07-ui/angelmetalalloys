@@ -113,7 +113,7 @@ export default async function CategoryPage({ params }: Props) {
                       // eslint-disable-next-line @next/next/no-img-element
                       <img src={product.primary_image_url} alt={product.name} className="w-full h-full object-contain mix-blend-multiply p-4 group-hover:scale-105 transition-transform duration-500" />
                     ) : (
-                      <span className="text-navy/20 font-display font-black text-3xl">SS</span>
+                      <span className="text-navy/20 font-display font-black text-3xl">SS/Carbon Steel</span>
                     )}
                   </div>
                   <div className="p-5">
@@ -123,14 +123,6 @@ export default async function CategoryPage({ params }: Props) {
                     {product.short_description && (
                       <p className="text-gray-500 text-xs line-clamp-2 mb-3">{product.short_description}</p>
                     )}
-                    <div className="flex flex-wrap gap-1.5 mb-4">
-                      {Array.isArray(product.material_grades) && product.material_grades.slice(0, 3).map((g: string) => (
-                        <span key={g} className="grade-badge">{g}</span>
-                      ))}
-                      {Array.isArray(product.material_grades) && product.material_grades.length > 3 && (
-                        <span className="grade-badge">+{product.material_grades.length - 3}</span>
-                      )}
-                    </div>
                     <div className="flex items-center gap-1.5 text-gold text-sm font-semibold">
                       View Details <ArrowRight size={14} className="group-hover:translate-x-1 transition-transform" />
                     </div>

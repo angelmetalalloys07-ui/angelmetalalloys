@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import { createPublicClient } from "@/lib/supabase/server";
 
 export const metadata: Metadata = {
@@ -20,14 +21,26 @@ export default async function BlogPage() {
   return (
     <>
       {/* Professional Corporate Hero */}
-      <section className="bg-gradient-navy py-16 lg:py-24 border-b border-gold/20">
-        <div className="section-container">
+      <section className="py-24 border-b border-gold/20 relative overflow-hidden">
+        {/* Background Image */}
+        <div className="absolute inset-0 z-0">
+          <Image 
+            src="https://res.cloudinary.com/doudwrrwz/image/upload/q_auto/f_auto/v1779779313/ChatGPT_Image_May_26_2026_12_38_02_PM_kkievl.png"
+            alt="Blog Background"
+            fill
+            className="object-cover object-center"
+            priority
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-navy/90 via-navy/50 to-transparent" />
+        </div>
+
+        <div className="section-container relative z-10">
           <div className="max-w-3xl">
             <h1 className="text-4xl md:text-5xl font-display font-bold text-white mb-6">
               Technical <span className="text-gold">Insights</span>
             </h1>
             <p className="text-silver/90 text-lg leading-relaxed">
-              Expert guides, engineering resources, and material selection criteria for stainless steel pipe fittings, flanges, and industrial components.
+              Expert guides, engineering resources, and material selection criteria for stainless steel/carbon steel pipe fittings, flanges, and industrial components.
             </p>
           </div>
         </div>

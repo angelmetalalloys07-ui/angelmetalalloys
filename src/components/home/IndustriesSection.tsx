@@ -27,7 +27,7 @@ export default function IndustriesSection() {
             <span className="text-gradient-gold">Global Industries</span>
           </h2>
           <p className="text-silver/70 text-lg leading-relaxed max-w-2xl mx-auto">
-            Our SS pipe fittings and flanges are trusted in the most demanding industrial 
+            Our SS/Carbon Steel pipe fittings and flanges are trusted in the most demanding industrial 
             environments worldwide.
           </p>
         </div>

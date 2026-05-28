@@ -1,12 +1,13 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import { ChevronRight, FileText } from "lucide-react";
 import WeightCalculator from "@/components/materials/WeightCalculator";
 
 export const metadata: Metadata = {
-  title: "Stainless Steel Materials & Weight Calculator | Angel Metal & Alloys",
+  title: "Stainless Steel/Carbon Steel Materials & Weight Calculator | Angel Metal & Alloys",
   description:
-    "Explore AISI/ASTM chemical compositions for Stainless Steel grades and use our interactive weight calculator for SS pipes, sheets, round bars, and flat bars.",
+    "Explore AISI/ASTM chemical compositions for Stainless Steel/Carbon Steel grades and use our interactive weight calculator for SS/Carbon Steel pipes, sheets, round bars, and flat bars.",
   alternates: { canonical: "/materials" },
 };
 
@@ -23,8 +24,19 @@ export default function MaterialsPage() {
   return (
     <>
       {/* Hero Section */}
-      <section className="bg-gradient-navy pt-32 pb-20 relative overflow-hidden">
-        <div className="absolute inset-0 hero-grid opacity-20" />
+      <section className="pt-32 pb-20 relative overflow-hidden">
+        {/* Background Image */}
+        <div className="absolute inset-0 z-0">
+          <Image 
+            src="https://res.cloudinary.com/doudwrrwz/image/upload/q_auto/f_auto/v1779778845/ChatGPT_Image_May_26_2026_12_30_25_PM_s0kxwk.png"
+            alt="Materials Background"
+            fill
+            className="object-cover object-center"
+            priority
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-navy/90 via-navy/50 to-transparent" />
+        </div>
+
         <div className="section-container relative z-10">
           <nav className="flex items-center gap-2 text-silver/60 text-xs mb-6 overflow-x-auto whitespace-nowrap">
             <Link href="/" className="hover:text-gold transition-colors">Home</Link>
@@ -37,7 +49,7 @@ export default function MaterialsPage() {
               Materials <span className="text-gradient-gold">& Specifications</span>
             </h1>
             <p className="text-silver/80 text-lg leading-relaxed">
-              Comprehensive reference guide for Stainless Steel chemical compositions and an interactive weight calculator for your piping and structural requirements.
+              Comprehensive reference guide for Stainless Steel/Carbon Steel chemical compositions and an interactive weight calculator for your piping and structural requirements.
             </p>
           </div>
         </div>
@@ -108,7 +120,7 @@ export default function MaterialsPage() {
                 Metal Weight Calculator
               </h2>
               <p className="text-gray-500 mt-2">
-                Use our dynamic calculator to estimate the theoretical weight of your stainless steel materials.
+                Use our dynamic calculator to estimate the theoretical weight of your stainless steel/carbon steel materials.
               </p>
             </div>
             

@@ -201,9 +201,9 @@ export async function sendAutoReply(inquiry: Inquiry) {
           <!-- Footer -->
           <div style="${BASE_STYLES.footer}">
             <p style="${BASE_STYLES.footerText}; font-weight: bold; color: ${BRAND_COLORS.navy}; margin-bottom: 5px;">Angel Metal & Alloys</p>
-            <p style="${BASE_STYLES.footerText}; margin-bottom: 5px;">Manufacturer & Exporter of Stainless Steel Pipe Fittings & Flanges</p>
-            <p style="${BASE_STYLES.footerText}; margin-bottom: 10px;">B-917 Sun West Bank, Opp Rajasthan Hospital, Ahmedabad – 380013, Gujarat, India</p>
-            <p style="${BASE_STYLES.footerText}; font-size: 11px;">GST: 24ESRPM8437G1Z6 | <a href="https://angelmetalalloys.com" style="color: ${BRAND_COLORS.gold};">www.angelmetalalloys.com</a></p>
+            <p style="${BASE_STYLES.footerText}; margin-bottom: 5px;">Manufacturer & Exporter of Stainless Steel/Carbon Steel Pipe Fittings & Flanges</p>
+            <p style="${BASE_STYLES.footerText}; margin-bottom: 10px;">B-820 Sun West Bank, Opp Rajasthan Hospital, Ahmedabad – 380013, Gujarat, India</p>
+            <p style="${BASE_STYLES.footerText}; font-size: 11px;"><a href="https://angelmetalalloys.com" style="color: ${BRAND_COLORS.gold};">www.angelmetalalloys.com</a></p>
           </div>
         </div>
       </body>

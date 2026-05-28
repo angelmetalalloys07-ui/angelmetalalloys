@@ -10,9 +10,9 @@ import HomeSEOContent from "@/components/home/HomeSEOContent";
 import { createPublicClient } from "@/lib/supabase/server";
 
 export const metadata: Metadata = {
-  title: "SS Flanges & Pipe Fittings Manufacturer Ahmedabad | Angel Metal & Alloys",
+  title: "SS/Carbon Steel Flanges & Pipe Fittings Manufacturer Ahmedabad | Angel Metal & Alloys",
   description:
-    "Angel Metal & Alloys — ISO certified manufacturer & exporter of Stainless Steel pipe fittings, flanges, forged components in Ahmedabad. 30+ countries. 15–20 MT/month capacity. Est. 2007.",
+    "Angel Metal & Alloys — ISO certified manufacturer & exporter of Stainless Steel/Carbon Steel pipe fittings, flanges, forged components in Ahmedabad. 30+ countries. 15–20 MT/month capacity. Est. 2007.",
   alternates: { canonical: "/" },
 };
 

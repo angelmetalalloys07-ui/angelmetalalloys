@@ -7,7 +7,7 @@ export async function GET(req: NextRequest) {
   try {
     const { searchParams } = new URL(req.url);
     const title = searchParams.get('title') || 'Angel Metal & Alloys';
-    const description = searchParams.get('description') || 'Manufacturer & Exporter of Stainless Steel Pipe Fittings, Flanges & Forged Components';
+    const description = searchParams.get('description') || 'Manufacturer & Exporter of Stainless Steel/Carbon Steel Pipe Fittings, Flanges & Forged Components';
 
     return new ImageResponse(
       (

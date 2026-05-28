@@ -21,7 +21,7 @@ export default function FeaturedProducts({ products }: Props) {
             </div>
             <h2 className="section-heading">
               Top-Selling{" "}
-              <span className="text-gradient-gold">SS Products</span>
+              <span className="text-gradient-gold">SS/Carbon Steel Products</span>
             </h2>
           </div>
           <Link href="/products" className="btn-navy-outline flex-shrink-0 text-sm">
@@ -48,7 +48,7 @@ export default function FeaturedProducts({ products }: Props) {
                 ) : (
                   <div className="flex flex-col items-center gap-2 opacity-40">
                     <div className="w-16 h-16 rounded-full border-2 border-navy/20 flex items-center justify-center">
-                      <span className="text-navy/40 font-display font-bold text-2xl">SS</span>
+                      <span className="text-navy/40 font-display font-bold text-2xl">SS/Carbon Steel</span>
                     </div>
                     <span className="text-xs text-navy/40 font-medium">
                       {categoryLabel(product.category ?? "")}
@@ -71,17 +71,6 @@ export default function FeaturedProducts({ products }: Props) {
                   <p className="text-gray-500 text-xs leading-relaxed mb-3 line-clamp-2">
                     {product.short_description}
                   </p>
-                )}
-                {/* Grades */}
-                {Array.isArray(product.material_grades) && product.material_grades.length > 0 && (
-                  <div className="flex flex-wrap gap-1.5 mb-4">
-                    {product.material_grades.slice(0, 4).map((g) => (
-                      <span key={g} className="grade-badge">{g}</span>
-                    ))}
-                    {product.material_grades.length > 4 && (
-                      <span className="grade-badge">+{product.material_grades.length - 4}</span>
-                    )}
-                  </div>
                 )}
                 <div className="flex items-center gap-2 text-gold text-sm font-semibold">
                   Get Quote <ArrowRight size={13} className="group-hover:translate-x-1 transition-transform" />

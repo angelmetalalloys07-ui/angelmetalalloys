@@ -6,8 +6,8 @@ import { ChevronDown } from "lucide-react";
 export default function HomeSEOContent() {
   const faqs = [
     {
-      question: "What grades of stainless steel do you manufacture?",
-      answer: "We manufacture fittings and flanges in a wide range of grades including SS 304/304L, 316/316L, 321, 347, 904L, Duplex 2205, and Super Duplex 2507, as well as Carbon Steel and Alloy Steel."
+      question: "What grades of stainless steel/carbon steel do you manufacture?",
+      answer: "We manufacture fittings and flanges in a wide range of grades including SS/Carbon Steel 304/304L, 316/316L, 321, 347, 904L, Duplex 2205, and Super Duplex 2507, as well as Carbon Steel and Alloy Steel."
     },
     {
       question: "Do you provide Mill Test Certificates (MTC)?",
@@ -62,17 +62,17 @@ export default function HomeSEOContent() {
               Company Profile
             </div>
             <h2 className="section-heading mb-6">
-              Leading <span className="text-gradient-gold">Stainless Steel Pipe Fittings</span> Manufacturer in India
+              Leading <span className="text-gradient-gold">Stainless Steel/Carbon Steel Pipe Fittings</span> Manufacturer in India
             </h2>
             <div className="prose prose-gray text-gray-600 text-sm leading-relaxed">
               <p>
-                Established in 2007, <strong>Angel Metal & Alloys</strong> has emerged as a globally recognized manufacturer, supplier, and exporter of premium quality <strong>Stainless Steel Pipe Fittings</strong>, <strong>Flanges</strong>, and Forged Components based in Ahmedabad, Gujarat, India.
+                Established in 2007, <strong>Angel Metal & Alloys</strong> has emerged as a globally recognized manufacturer, supplier, and exporter of premium quality <strong>Stainless Steel/Carbon Steel Pipe Fittings</strong>, <strong>Flanges</strong>, and Forged Components based in Ahmedabad, Gujarat, India.
               </p>
               <p>
-                We specialize in producing high-integrity <strong>butt weld fittings</strong> (elbows, tees, reducers), socket weld fittings, and threaded components conforming to stringent international standards like ASME B16.9, ASTM A403, and ASME B16.11. Our <strong>SS flanges</strong> (Weld Neck, Slip-On, Blind) are precision-engineered to ASME B16.5 and EN 1092-1 specifications.
+                We specialize in producing high-integrity <strong>butt weld fittings</strong> (elbows, tees, reducers), socket weld fittings, and threaded components conforming to stringent international standards like ASME B16.9, ASTM A403, and ASME B16.11. Our <strong>SS/Carbon Steel flanges</strong> (Weld Neck, Slip-On, Blind) are precision-engineered to ASME B16.5 and EN 1092-1 specifications.
               </p>
               <p>
-                Our state-of-the-art manufacturing facility in Ahmedabad ensures that every product undergoes rigorous quality testing, including 100% Positive Material Identification (PMI) and hydrostatic testing. We cater to diverse industries including Oil & Gas, Petrochemicals, Pharmaceuticals, and Power Generation, offering materials ranging from SS 304/316L to exotic alloys like Duplex 2205 and Inconel.
+                Our state-of-the-art manufacturing facility in Ahmedabad ensures that every product undergoes rigorous quality testing, including 100% Positive Material Identification (PMI) and hydrostatic testing. We cater to diverse industries including Oil & Gas, Petrochemicals, Pharmaceuticals, and Power Generation, offering materials ranging from SS/Carbon Steel 304/316L to exotic alloys like Duplex 2205 and Inconel.
               </p>
               <p>
                 With a robust export network spanning over 30 countries, we guarantee competitive pricing, timely worldwide delivery, and absolute compliance with ISO 9001:2015 quality standards. Whether you need standard ASME fittings or custom OEM components, Angel Metal & Alloys is your trusted partner.

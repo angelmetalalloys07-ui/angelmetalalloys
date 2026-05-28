@@ -60,31 +60,31 @@ INSERT INTO posts (
 ) VALUES (
   'ss-304-vs-ss-316l-pipe-fittings-grade-selection-guide',
 
-  'SS 304 vs SS 316L Pipe Fittings: Complete Grade Selection Guide for Engineers',
+  'SS/Carbon Steel 304 vs SS/Carbon Steel 316L Pipe Fittings: Complete Grade Selection Guide for Engineers',
 
-  'Choosing the wrong stainless steel grade costs money, causes failures, and risks shutdowns. This definitive guide explains when to use SS 304, SS 316, SS 316L, and Duplex steel in pipe fittings — with real application examples from pharma, oil & gas, and chemical industries.',
+  'Choosing the wrong stainless steel/carbon steel grade costs money, causes failures, and risks shutdowns. This definitive guide explains when to use SS/Carbon Steel 304, SS/Carbon Steel 316, SS/Carbon Steel 316L, and Duplex steel in pipe fittings — with real application examples from pharma, oil & gas, and chemical industries.',
 
-  '# SS 304 vs SS 316L Pipe Fittings: Complete Grade Selection Guide for Engineers
+  '# SS/Carbon Steel 304 vs SS/Carbon Steel 316L Pipe Fittings: Complete Grade Selection Guide for Engineers
 
 **Published by Angel Metal & Alloys, Ahmedabad | Technical Resource**
 
 ---
 
-The single most common mistake engineers make when specifying stainless steel pipe fittings is treating grade selection as an afterthought. They pick SS 304 because it is cheaper, or SS 316L because it "sounds better" — without understanding why one grade outperforms the other in specific environments. This guide eliminates that guesswork.
+The single most common mistake engineers make when specifying stainless steel/carbon steel pipe fittings is treating grade selection as an afterthought. They pick SS/Carbon Steel 304 because it is cheaper, or SS/Carbon Steel 316L because it "sounds better" — without understanding why one grade outperforms the other in specific environments. This guide eliminates that guesswork.
 
-At Angel Metal & Alloys, we manufacture and export SS pipe fittings, flanges, and forged components from Ahmedabad to 30+ countries. Every week, our technical team answers the same question from procurement engineers across India, UAE, Singapore, and the UK: *"Which grade should I specify for this application?"*
+At Angel Metal & Alloys, we manufacture and export SS/Carbon Steel pipe fittings, flanges, and forged components from Ahmedabad to 30+ countries. Every week, our technical team answers the same question from procurement engineers across India, UAE, Singapore, and the UK: *"Which grade should I specify for this application?"*
 
 This article gives you the engineering answer — clearly, without jargon.
 
 ---
 
-## What Makes SS 304, SS 316, and SS 316L Different?
+## What Makes SS/Carbon Steel 304, SS/Carbon Steel 316, and SS/Carbon Steel 316L Different?
 
-All three grades are austenitic stainless steels — they share the same face-centred cubic crystal structure, non-magnetic properties (when annealed), and good ductility. The differences come down to chemical composition.
+All three grades are austenitic stainless steel/carbon steels — they share the same face-centred cubic crystal structure, non-magnetic properties (when annealed), and good ductility. The differences come down to chemical composition.
 
-### SS 304 — The Universal Grade
+### SS/Carbon Steel 304 — The Universal Grade
 
-SS 304 contains approximately 18% chromium and 8% nickel. This is why it is also called the "18/8" grade. The chromium forms a passive oxide layer on the surface that resists oxidation and moderate corrosion.
+SS/Carbon Steel 304 contains approximately 18% chromium and 8% nickel. This is why it is also called the "18/8" grade. The chromium forms a passive oxide layer on the surface that resists oxidation and moderate corrosion.
 
 **Chemical composition (ASTM A182):**
 - Carbon: max 0.08%
@@ -92,11 +92,11 @@ SS 304 contains approximately 18% chromium and 8% nickel. This is why it is also
 - Nickel: 8.0–10.5%
 - Molybdenum: None
 
-SS 304 is the workhorse of the stainless steel industry. It handles most clean water systems, food and beverage processing lines, general chemical storage, dairy equipment, and architectural applications perfectly well. In India, the majority of hospital furniture, food processing equipment, and pharmaceutical vessel exteriors use SS 304.
+SS/Carbon Steel 304 is the workhorse of the stainless steel/carbon steel industry. It handles most clean water systems, food and beverage processing lines, general chemical storage, dairy equipment, and architectural applications perfectly well. In India, the majority of hospital furniture, food processing equipment, and pharmaceutical vessel exteriors use SS/Carbon Steel 304.
 
-### SS 316 — The Molybdenum Upgrade
+### SS/Carbon Steel 316 — The Molybdenum Upgrade
 
-SS 316 adds 2–3% molybdenum to the SS 304 formula. This single addition dramatically changes performance in aggressive environments. Molybdenum stabilises the passive oxide layer against chloride attack — the primary cause of pitting corrosion in stainless steel.
+SS/Carbon Steel 316 adds 2–3% molybdenum to the SS/Carbon Steel 304 formula. This single addition dramatically changes performance in aggressive environments. Molybdenum stabilises the passive oxide layer against chloride attack — the primary cause of pitting corrosion in stainless steel/carbon steel.
 
 **Chemical composition (ASTM A182):**
 - Carbon: max 0.08%
@@ -104,21 +104,21 @@ SS 316 adds 2–3% molybdenum to the SS 304 formula. This single addition dramat
 - Nickel: 10.0–14.0%
 - Molybdenum: 2.0–3.0%
 
-The practical result: SS 316 pipe fittings can handle seawater, marine atmospheres, chlorinated cleaning agents, dilute hydrochloric acid, sulphuric acid, and phosphoric acid — environments where SS 304 would pit and fail within months.
+The practical result: SS/Carbon Steel 316 pipe fittings can handle seawater, marine atmospheres, chlorinated cleaning agents, dilute hydrochloric acid, sulphuric acid, and phosphoric acid — environments where SS/Carbon Steel 304 would pit and fail within months.
 
-### SS 316L — The Weld-Safe Version
+### SS/Carbon Steel 316L — The Weld-Safe Version
 
-The "L" in SS 316L stands for Low carbon. The maximum carbon content drops from 0.08% to 0.03%. This matters because carbon causes a phenomenon called **sensitisation** during welding — carbon migrates to grain boundaries and forms chromium carbide, depleting the chromium available to form the protective oxide layer. The result is intergranular corrosion at weld joints.
+The "L" in SS/Carbon Steel 316L stands for Low carbon. The maximum carbon content drops from 0.08% to 0.03%. This matters because carbon causes a phenomenon called **sensitisation** during welding — carbon migrates to grain boundaries and forms chromium carbide, depleting the chromium available to form the protective oxide layer. The result is intergranular corrosion at weld joints.
 
-By reducing carbon below 0.03%, SS 316L virtually eliminates sensitisation risk. This makes SS 316L the mandatory choice for any application involving site welding, multi-pass welding, or welded assemblies that cannot be solution-annealed after fabrication.
+By reducing carbon below 0.03%, SS/Carbon Steel 316L virtually eliminates sensitisation risk. This makes SS/Carbon Steel 316L the mandatory choice for any application involving site welding, multi-pass welding, or welded assemblies that cannot be solution-annealed after fabrication.
 
-**In practice:** In India, pharmaceutical plants, dairy processing lines, and chemical reactors almost universally specify SS 316L for all welded pipe fittings and flanges. The additional cost over SS 316 is negligible compared to the risk of weld zone corrosion failures.
+**In practice:** In India, pharmaceutical plants, dairy processing lines, and chemical reactors almost universally specify SS/Carbon Steel 316L for all welded pipe fittings and flanges. The additional cost over SS/Carbon Steel 316 is negligible compared to the risk of weld zone corrosion failures.
 
 ---
 
 ## Head-to-Head Comparison Table
 
-| Property | SS 304 | SS 316 | SS 316L |
+| Property | SS/Carbon Steel 304 | SS/Carbon Steel 316 | SS/Carbon Steel 316L |
 |---|---|---|---|
 | Chromium % | 18–20 | 16–18 | 16–18 |
 | Nickel % | 8–10.5 | 10–14 | 10–14 |
@@ -138,71 +138,71 @@ By reducing carbon below 0.03%, SS 316L virtually eliminates sensitisation risk.
 
 ### Pharmaceutical Industry (India — Dahej, Ankleshwar, Vapi)
 
-**Specify: SS 316L for all process pipe fittings, flanges, and valves**
+**Specify: SS/Carbon Steel 316L for all process pipe fittings, flanges, and valves**
 
-Pharmaceutical manufacturing requires high-purity piping. Clean-In-Place (CIP) and Sterilisation-In-Place (SIP) systems use hot caustic solutions and steam — both of which attack SS 304 over time. More critically, CIP chemicals often contain chlorinated compounds that cause chloride pitting in SS 304.
+Pharmaceutical manufacturing requires high-purity piping. Clean-In-Place (CIP) and Sterilisation-In-Place (SIP) systems use hot caustic solutions and steam — both of which attack SS/Carbon Steel 304 over time. More critically, CIP chemicals often contain chlorinated compounds that cause chloride pitting in SS/Carbon Steel 304.
 
-SS 316L is mandated by cGMP guidelines for product contact surfaces. The low carbon content ensures no contamination from sensitised weld zones, which is critical for injectable and API manufacturing lines.
+SS/Carbon Steel 316L is mandated by cGMP guidelines for product contact surfaces. The low carbon content ensures no contamination from sensitised weld zones, which is critical for injectable and API manufacturing lines.
 
-*Angel Metal & Alloys supplies SS 316L butt weld fittings, flanges, and forged fittings to several pharmaceutical SEZs in Gujarat, including Dahej and Jambusar.*
+*Angel Metal & Alloys supplies SS/Carbon Steel 316L butt weld fittings, flanges, and forged fittings to several pharmaceutical SEZs in Gujarat, including Dahej and Jambusar.*
 
 ### Chemical Industry (Gujarat — Ankleshwar, Nandesari, Vapi)
 
-**Specify: SS 316L for most applications; Duplex 2205 for high-chloride and high-pressure services**
+**Specify: SS/Carbon Steel 316L for most applications; Duplex 2205 for high-chloride and high-pressure services**
 
 Gujarat''s chemical belt processes everything from acetic acid and caustic soda to chlorine compounds and sulphuric acid. The correct grade depends on the specific chemical and its concentration:
 
-- Dilute sulphuric acid (< 10%): SS 316L
-- Phosphoric acid: SS 316L
+- Dilute sulphuric acid (< 10%): SS/Carbon Steel 316L
+- Phosphoric acid: SS/Carbon Steel 316L
 - Chlorine compounds or hydrochloric acid: Duplex 2205 or Hastelloy C276
-- Acetic acid: SS 316L
-- Caustic soda: SS 304 or SS 316L (both perform well)
-- Nitric acid: SS 304 (316 performs worse in concentrated nitric acid)
+- Acetic acid: SS/Carbon Steel 316L
+- Caustic soda: SS/Carbon Steel 304 or SS/Carbon Steel 316L (both perform well)
+- Nitric acid: SS/Carbon Steel 304 (316 performs worse in concentrated nitric acid)
 
 ### Oil & Gas Industry (ONGC Hazira, Reliance Jamnagar)
 
-**Specify: Duplex 2205 or SS 316L depending on service**
+**Specify: Duplex 2205 or SS/Carbon Steel 316L depending on service**
 
-For offshore and sour service applications containing hydrogen sulphide and CO₂, duplex stainless steel (UNS S31803) is the preferred choice. SS 316L is used for utility services, instrument tubing, and non-sour process lines.
+For offshore and sour service applications containing hydrogen sulphide and CO₂, duplex stainless steel/carbon steel (UNS S31803) is the preferred choice. SS/Carbon Steel 316L is used for utility services, instrument tubing, and non-sour process lines.
 
 ### Dairy & Food Processing (Gujarat — Mehsana, Anand)
 
-**Specify: SS 316L for product contact; SS 304 for structural and non-contact**
+**Specify: SS/Carbon Steel 316L for product contact; SS/Carbon Steel 304 for structural and non-contact**
 
-Food-grade piping requires smooth, crevice-free internal surfaces that can withstand CIP chemicals. SS 316L is standard for milk lines, fermenter connections, and heat exchanger headers. SS 304 is acceptable for water services and structural supports.
+Food-grade piping requires smooth, crevice-free internal surfaces that can withstand CIP chemicals. SS/Carbon Steel 316L is standard for milk lines, fermenter connections, and heat exchanger headers. SS/Carbon Steel 304 is acceptable for water services and structural supports.
 
 ### Water Treatment Plants
 
-**Specify: SS 304 for clean water; SS 316L for brackish or seawater**
+**Specify: SS/Carbon Steel 304 for clean water; SS/Carbon Steel 316L for brackish or seawater**
 
-Municipal water treatment (chlorination levels < 0.5 ppm) is well handled by SS 304. Desalination plants, coastal water treatment, or systems using aggressive chlorinated biocides should use SS 316L as the minimum, with Duplex 2205 for high-temperature services.
+Municipal water treatment (chlorination levels < 0.5 ppm) is well handled by SS/Carbon Steel 304. Desalination plants, coastal water treatment, or systems using aggressive chlorinated biocides should use SS/Carbon Steel 316L as the minimum, with Duplex 2205 for high-temperature services.
 
 ---
 
 ## The 5-Question Grade Selection Checklist
 
-Before specifying any SS pipe fitting or flange, answer these five questions:
+Before specifying any SS/Carbon Steel pipe fitting or flange, answer these five questions:
 
 **1. Is chloride present in the fluid or environment?**
-Yes → Use SS 316L minimum. High chloride (> 200 ppm) or marine environment → Duplex 2205.
+Yes → Use SS/Carbon Steel 316L minimum. High chloride (> 200 ppm) or marine environment → Duplex 2205.
 
 **2. Will any fittings be field welded without post-weld heat treatment?**
 Yes → Specify "L" grade (316L, 304L) to prevent sensitisation.
 
 **3. Does the application involve temperature above 400°C?**
-Yes → Use SS 321 (titanium-stabilised) or SS 347 (niobium-stabilised) instead — they handle high-temperature cycling without carbide precipitation.
+Yes → Use SS/Carbon Steel 321 (titanium-stabilised) or SS/Carbon Steel 347 (niobium-stabilised) instead — they handle high-temperature cycling without carbide precipitation.
 
 **4. Is the fluid highly oxidising (concentrated nitric acid)?**
-Yes → SS 304 or SS 310 performs better than SS 316 in this specific case.
+Yes → SS/Carbon Steel 304 or SS/Carbon Steel 310 performs better than SS/Carbon Steel 316 in this specific case.
 
 **5. Is cost the primary constraint with benign environment?**
-Yes → SS 304 is entirely appropriate and significantly more economical.
+Yes → SS/Carbon Steel 304 is entirely appropriate and significantly more economical.
 
 ---
 
 ## Mill Test Certificate: What to Check
 
-When procuring SS pipe fittings or flanges, always demand a Mill Test Certificate (MTC). For SS 316L, verify:
+When procuring SS/Carbon Steel pipe fittings or flanges, always demand a Mill Test Certificate (MTC). For SS/Carbon Steel 316L, verify:
 
 - Carbon content is listed as ≤ 0.03% (not just "316L" written without test data)
 - Molybdenum is between 2.0% and 3.0%
@@ -217,12 +217,12 @@ At Angel Metal & Alloys, every consignment is dispatched with full MTC traceabil
 
 | Application | Recommended Grade |
 |---|---|
-| General water, food, structural | SS 304 |
-| Welded assemblies, general corrosive | SS 304L |
-| Chemical processing, marine, CIP | SS 316L |
-| Pharmaceutical process lines | SS 316L |
-| High temperature > 400°C | SS 321 |
-| Very high temperature / furnace | SS 310 |
+| General water, food, structural | SS/Carbon Steel 304 |
+| Welded assemblies, general corrosive | SS/Carbon Steel 304L |
+| Chemical processing, marine, CIP | SS/Carbon Steel 316L |
+| Pharmaceutical process lines | SS/Carbon Steel 316L |
+| High temperature > 400°C | SS/Carbon Steel 321 |
+| Very high temperature / furnace | SS/Carbon Steel 310 |
 | Offshore, high chloride, high pressure | Duplex 2205 |
 | Extreme chloride, HCl, seawater high temp | Super Duplex 2507 |
 | Hydrochloric acid, strong acids | Hastelloy C276 |
@@ -231,18 +231,18 @@ At Angel Metal & Alloys, every consignment is dispatched with full MTC traceabil
 
 ## Get the Right Grade for Your Project
 
-Angel Metal & Alloys manufactures and stocks all the grades listed in this guide — from SS 304 to Super Duplex 2507 — in butt weld fittings, flanges, forged fittings, pipes, and fasteners. Our technical team in Ahmedabad provides free grade recommendation for your specific application.
+Angel Metal & Alloys manufactures and stocks all the grades listed in this guide — from SS/Carbon Steel 304 to Super Duplex 2507 — in butt weld fittings, flanges, forged fittings, pipes, and fasteners. Our technical team in Ahmedabad provides free grade recommendation for your specific application.
 
-**Call us:** +91 9974334455 | +91 9825003949
+**Call us:** +91 9974334455
 **Email:** angelmetalalloys@gmail.com
 **WhatsApp:** +91 9974334455
 
-*Angel Metal & Alloys, B-917 Sun West Bank, Ahmedabad – 380013, Gujarat, India*',
+*Angel Metal & Alloys, B-820 Sun West Bank, Ahmedabad – 380013, Gujarat, India*',
 
   'Angel Metal & Alloys — Technical Team',
   true,
-  'SS 304 vs SS 316L Pipe Fittings Grade Selection Guide | Angel Metal Ahmedabad',
-  'Complete engineer''s guide to choosing SS 304, SS 316, SS 316L, or Duplex for pipe fittings and flanges. Industry-specific recommendations for pharma, chemical, oil & gas. By Angel Metal & Alloys, Ahmedabad.',
+  'SS/Carbon Steel 304 vs SS/Carbon Steel 316L Pipe Fittings Grade Selection Guide | Angel Metal Ahmedabad',
+  'Complete engineer''s guide to choosing SS/Carbon Steel 304, SS/Carbon Steel 316, SS/Carbon Steel 316L, or Duplex for pipe fittings and flanges. Industry-specific recommendations for pharma, chemical, oil & gas. By Angel Metal & Alloys, Ahmedabad.',
   'https://res.cloudinary.com/doudwrrwz/image/upload/q_auto/f_auto/v1779702120/Gemini_Generated_Image_6xzswf6xzswf6xzs_r4spwk.png'
 ) ON CONFLICT (slug) DO UPDATE SET 
   title = EXCLUDED.title,
@@ -310,7 +310,7 @@ ASME B16.5 defines 7 pressure class designations:
 
 ### Class 150 Flanges
 
-Class 150 is the lowest and most common pressure class. At ambient temperature (-29°C to 38°C), a Class 150 SS 316L flange (Material Group 2.2 per ASME B16.5) has an allowable working pressure of approximately **19.6 bar (285 psi).**
+Class 150 is the lowest and most common pressure class. At ambient temperature (-29°C to 38°C), a Class 150 SS/Carbon Steel 316L flange (Material Group 2.2 per ASME B16.5) has an allowable working pressure of approximately **19.6 bar (285 psi).**
 
 As temperature rises, this drops significantly:
 - At 100°C: ~17.7 bar
@@ -322,7 +322,7 @@ As temperature rises, this drops significantly:
 
 ### Class 300 Flanges
 
-Class 300 flanges are heavier, have more bolt holes, and handle significantly higher pressures than Class 150. At ambient temperature, a Class 300 SS 316L flange is rated at approximately **51.1 bar (741 psi)** — nearly 2.5 times more than Class 150.
+Class 300 flanges are heavier, have more bolt holes, and handle significantly higher pressures than Class 150. At ambient temperature, a Class 300 SS/Carbon Steel 316L flange is rated at approximately **51.1 bar (741 psi)** — nearly 2.5 times more than Class 150.
 
 **Note:** Class 400 exists in ASME B16.5 but is rarely specified in modern projects. When in doubt, jump from Class 300 to Class 600.
 
@@ -330,19 +330,19 @@ Class 300 flanges are heavier, have more bolt holes, and handle significantly hi
 
 ### Class 600 Flanges
 
-Class 600 represents the transition into high-pressure territory. At ambient temperature, a Class 600 SS 316L flange is rated at approximately **102.1 bar (1480 psi).**
+Class 600 represents the transition into high-pressure territory. At ambient temperature, a Class 600 SS/Carbon Steel 316L flange is rated at approximately **102.1 bar (1480 psi).**
 
 **Typical applications:** High-pressure steam systems, oil & gas process lines, reactor inlet/outlet connections, high-pressure chemical injection systems, and power plant main steam lines.
 
 ### Class 900 Flanges
 
-Class 900 is used for very high-pressure services. At ambient, a Class 900 SS 316L flange handles approximately **153.2 bar (2220 psi).**
+Class 900 is used for very high-pressure services. At ambient, a Class 900 SS/Carbon Steel 316L flange handles approximately **153.2 bar (2220 psi).**
 
 **Typical applications:** High-pressure oil & gas wellheads and manifolds, main steam lines in power boilers, high-pressure chemical reactors, and HP hydraulic systems.
 
 ### Class 1500 and Class 2500 Flanges
 
-These are the highest pressure classes in ASME B16.5. Class 1500 flanges handle approximately **255.3 bar (3700 psi)** and Class 2500 approximately **425.5 bar (6170 psi)** at ambient for SS 316L.
+These are the highest pressure classes in ASME B16.5. Class 1500 flanges handle approximately **255.3 bar (3700 psi)** and Class 2500 approximately **425.5 bar (6170 psi)** at ambient for SS/Carbon Steel 316L.
 
 Note: Class 2500 is limited to NPS ½ through NPS 12 in ASME B16.5. Larger sizes require ASME B16.47.
 
@@ -354,7 +354,7 @@ Note: Class 2500 is limited to NPS ½ through NPS 12 in ASME B16.5. Larger sizes
 
 This is where most specification errors occur. Every material loses pressure-carrying capacity as temperature rises. The relationship is non-linear and material-specific.
 
-### Example: SS 316L Flanges, Class 150
+### Example: SS/Carbon Steel 316L Flanges, Class 150
 
 | Temperature | Allowable Pressure |
 |---|---|
@@ -374,12 +374,12 @@ ASME B16.5 divides flange materials into material groups. Each group has its own
 
 - **Group 1.1** — Carbon Steel (A105, A350 LF2) — highest pressure capacity at ambient
 - **Group 1.10** — Carbon Steel high yield (A694 F52, F60)
-- **Group 2.1** — SS 304, SS 304L — moderate capacity
-- **Group 2.2** — SS 316, SS 316L, SS 317, SS 321 — moderate capacity, better at temperature
-- **Group 2.3** — SS 347 — good high-temperature stability
+- **Group 2.1** — SS/Carbon Steel 304, SS/Carbon Steel 304L — moderate capacity
+- **Group 2.2** — SS/Carbon Steel 316, SS/Carbon Steel 316L, SS/Carbon Steel 317, SS/Carbon Steel 321 — moderate capacity, better at temperature
+- **Group 2.3** — SS/Carbon Steel 347 — good high-temperature stability
 - **Group 3.1–3.4** — Nickel alloys, Inconel, Hastelloy — speciality high-temperature service
 
-**Important:** Carbon steel A105 flanges carry significantly higher working pressure than SS 316L flanges of the same class at ambient temperature. This is why carbon steel flanges dominate in oil & gas where stainless is not required.
+**Important:** Carbon steel A105 flanges carry significantly higher working pressure than SS/Carbon Steel 316L flanges of the same class at ambient temperature. This is why carbon steel flanges dominate in oil & gas where stainless is not required.
 
 ---
 
@@ -410,7 +410,7 @@ Use this process for every new piping line:
 Get the maximum operating pressure (MOP) and maximum operating temperature (MOT) from the Process Datasheet or P&ID. Add the appropriate safety factor per your company piping specification (typically 10–15% above MOP).
 
 **Step 2 — Identify the fluid and material**
-Determine the fluid being handled and select the appropriate material grade (see our SS 304 vs 316L guide). Identify the ASME B16.5 material group for your chosen grade.
+Determine the fluid being handled and select the appropriate material grade (see our SS/Carbon Steel 304 vs 316L guide). Identify the ASME B16.5 material group for your chosen grade.
 
 **Step 3 — Look up the pressure-temperature table**
 In ASME B16.5 (purchase the latest edition from ASME at asme.org), find the P-T rating table for your material group. Start with Class 150 at your design temperature.
@@ -467,7 +467,7 @@ Raised Face (RF) is standard for Class 150 and above in most services. Ring Type
 
 ## Angel Metal & Alloys: Certified to ASME B16.5
 
-Angel Metal & Alloys manufactures and stocks SS flanges in all seven ASME B16.5 pressure classes, in sizes ½" NB to 24" NB, in all material grades from SS 304 to Super Duplex 2507. Every flange is dispatched with:
+Angel Metal & Alloys manufactures and stocks SS/Carbon Steel flanges in all seven ASME B16.5 pressure classes, in sizes ½" NB to 24" NB, in all material grades from SS/Carbon Steel 304 to Super Duplex 2507. Every flange is dispatched with:
 
 - Mill Test Certificate (MTC) with full chemical and mechanical traceability
 - Dimensional inspection report per ASME B16.5
@@ -477,12 +477,11 @@ Angel Metal & Alloys manufactures and stocks SS flanges in all seven ASME B16.5 
 
 Our experienced team can review your line list or P&ID and recommend the correct class and grade for every line — at no charge.
 
-**Call us:** +91 9974334455 | +91 9825003949
+**Call us:** +91 9974334455
 **Email:** angelmetalalloys@gmail.com
 **Request Quote:** angelmetalalloys.com/request-quote
 
-*Angel Metal & Alloys, B-917 Sun West Bank, Opp Rajasthan Hospital, Ahmedabad – 380013, Gujarat, India. Est. 2007. Exporting to 30+ countries.*',
-
+*Angel Metal & Alloys, B-820 Sun West Bank, Opp Rajasthan Hospital, Ahmedabad – 380013, Gujarat, India. Est. 2007. Exporting to 30+ countries.*',
   'Angel Metal & Alloys — Technical Team',
   true,
   'ASME B16.5 Flange Pressure Class Selection Guide: 150 to 2500 | Angel Metal Ahmedabad',

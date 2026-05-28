@@ -140,7 +140,7 @@ export const PRODUCT_CATEGORIES = [
     slug: "butt-weld-fittings",
     label: "Butt Weld Fittings",
     shortLabel: "Butt Weld",
-    description: "Seamless & welded SS butt weld fittings per ASME B16.9 — elbows, tees, reducers, caps & more.",
+    description: "Seamless & welded SS/Carbon Steel butt weld fittings per ASME B16.9 — elbows, tees, reducers, caps & more.",
     icon: "MoveRight",
   },
   {
@@ -152,9 +152,9 @@ export const PRODUCT_CATEGORIES = [
   },
   {
     slug: "ss-flanges",
-    label: "SS Flanges",
-    shortLabel: "SS Flanges",
-    description: "Premium stainless steel flanges designed for high-pressure, corrosive environments.",
+    label: "SS/Carbon Steel Flanges",
+    shortLabel: "SS/Carbon Steel Flanges",
+    description: "Premium stainless steel/carbon steel flanges designed for high-pressure, corrosive environments.",
     icon: "CircleDot",
   },
   {
@@ -168,7 +168,7 @@ export const PRODUCT_CATEGORIES = [
     slug: "pipe-nipples",
     label: "Pipe Nipples",
     shortLabel: "Nipples",
-    description: "Close, short, and long nipples machined from premium seamless stainless steel pipe.",
+    description: "Close, short, and long nipples machined from premium seamless stainless steel/carbon steel pipe.",
     icon: "Minus",
   },
   {
@@ -189,7 +189,7 @@ export const PRODUCT_CATEGORIES = [
     slug: "pipes-and-tubes",
     label: "Pipes & Tubes",
     shortLabel: "Pipes",
-    description: "Seamless and welded stainless steel, carbon steel, and alloy steel pipes for industrial pipelines.",
+    description: "Seamless and welded stainless steel/carbon steel, carbon steel, and alloy steel pipes for industrial pipelines.",
     icon: "Minus",
   },
   {
@@ -203,14 +203,14 @@ export const PRODUCT_CATEGORIES = [
     slug: "fasteners",
     label: "Industrial Fasteners",
     shortLabel: "Fasteners",
-    description: "High-strength stainless steel bolts, nuts, washers, and studs for secure industrial connections.",
+    description: "High-strength stainless steel/carbon steel bolts, nuts, washers, and studs for secure industrial connections.",
     icon: "Wrench",
   },
   {
     slug: "dairy-fittings",
     label: "Dairy Fittings",
     shortLabel: "Dairy",
-    description: "Sanitary stainless steel fittings for food, beverage, and pharmaceutical industries.",
+    description: "Sanitary stainless steel/carbon steel fittings for food, beverage, and pharmaceutical industries.",
     icon: "Droplets",
   },
   {
@@ -224,7 +224,7 @@ export const PRODUCT_CATEGORIES = [
     slug: "sheets-plates-coils",
     label: "Sheets, Plates & Coils",
     shortLabel: "Sheets & Plates",
-    description: "High-quality stainless steel sheets, plates, and coils in various grades and finishes.",
+    description: "High-quality stainless steel/carbon steel sheets, plates, and coils in various grades and finishes.",
     icon: "Layers",
   },
 ];
@@ -234,9 +234,8 @@ export const INDUSTRIES = [
   { slug: "petrochemical", name: "Petrochemical", description: "Corrosion-resistant piping components for chemical processing plants.", icon: "FlaskConical", color: "#e8edf5" },
   { slug: "water-treatment", name: "Water Treatment", description: "Sanitary and industrial grade fittings for desalination and wastewater.", icon: "Droplets", color: "#4cc9f0" },
   { slug: "power-generation", name: "Power Generation", description: "IBR-approved fittings for thermal and nuclear power plants.", icon: "Zap", color: "#f72585" },
-  { slug: "pharmaceutical", name: "Pharmaceutical", description: "High-purity, electro-polished sanitary fittings adhering to ASME BPE.", icon: "Microscope", color: "#4ade80" },
-  { slug: "shipbuilding", name: "Shipbuilding", description: "Marine-grade duplex and super duplex fittings for offshore vessels.", icon: "Anchor", color: "#c0c8d8" },
-  { slug: "food-beverage", name: "Food & Beverage", description: "Food-grade stainless steel connections ensuring absolute hygiene.", icon: "UtensilsCrossed", color: "#f0b44c" },
+  { slug: "dairy-processing", name: "Dairy Processing", description: "Hygienic and sanitary stainless steel/carbon steel fittings designed for milk and dairy processing lines.", icon: "Droplets", color: "#60a5fa" },
+  { slug: "food-beverage", name: "Food & Beverage", description: "Food-grade stainless steel/carbon steel connections ensuring absolute hygiene.", icon: "UtensilsCrossed", color: "#f0b44c" },
   { slug: "chemical", name: "Chemical Processing", description: "Special alloy fittings (904L, Inconel, Hastelloy) for aggressive media.", icon: "Atom", color: "#7209b7" },
 ];
 

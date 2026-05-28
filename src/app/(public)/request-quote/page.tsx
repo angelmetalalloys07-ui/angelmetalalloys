@@ -20,8 +20,8 @@ const COUNTRIES = [
 ];
 
 const GRADES = [
-  "SS 304", "SS 304L", "SS 316", "SS 316L", "SS 321", "SS 347",
-  "SS 904L", "Duplex 2205", "Super Duplex 2507", "SS 310", "SS 317L",
+  "SS/Carbon Steel 304", "SS/Carbon Steel 304L", "SS/Carbon Steel 316", "SS/Carbon Steel 316L", "SS/Carbon Steel 321", "SS/Carbon Steel 347",
+  "SS/Carbon Steel 904L", "Duplex 2205", "Super Duplex 2507", "SS/Carbon Steel 310", "SS/Carbon Steel 317L",
 ];
 
 export default function RequestQuotePage() {
@@ -223,11 +223,8 @@ export default function RequestQuotePage() {
               </div>
               <div className="bg-white border border-gray-100 rounded-2xl p-6 space-y-4">
                 <h3 className="font-display font-bold text-navy text-base">Direct Contact</h3>
-                <a href="tel:+919974334455" className="flex items-center gap-3 text-gray-600 text-sm hover:text-gold transition-colors">
-                  <Phone size={15} className="text-gold" /> +91 9974334455
-                </a>
-                <a href="tel:+919825003949" className="flex items-center gap-3 text-gray-600 text-sm hover:text-gold transition-colors">
-                  <Phone size={15} className="text-gold" /> +91 9825003949
+                <a href="tel:+919712012040" className="flex items-center gap-3 text-gray-600 text-sm hover:text-gold transition-colors">
+                  <Phone size={15} className="text-gold" /> +91 9712012040
                 </a>
                 <a href="mailto:angelmetalalloys@gmail.com" className="flex items-center gap-3 text-gold text-sm hover:underline break-all">
                   <Mail size={15} className="text-gold flex-shrink-0" /> angelmetalalloys@gmail.com

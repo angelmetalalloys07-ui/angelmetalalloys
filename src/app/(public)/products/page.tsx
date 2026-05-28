@@ -9,10 +9,10 @@ import { ArrowRight, SlidersHorizontal } from "lucide-react";
 export const revalidate = 3600; // ISR cache 1 hour
 
 export const metadata: Metadata = {
-  title: "SS Pipe Fittings, Flanges Catalogue | Angel Metal Ahmedabad",
+  title: "SS/Carbon Steel Pipe Fittings, Flanges Catalogue | Angel Metal Ahmedabad",
   description:
-    "Browse Angel Metal & Alloys' complete catalog of Stainless Steel pipe fittings, flanges, forged fittings, pipe nipples and stub ends. All grades: 304, 316L, Duplex, 904L. ASME, ASTM, EN standards.",
-  keywords: ["SS pipe fittings catalog", "stainless steel flanges list", "butt weld fittings India", "forged fittings manufacturer Gujarat"],
+    "Browse Angel Metal & Alloys' complete catalog of Stainless Steel/Carbon Steel pipe fittings, flanges, forged fittings, pipe nipples and stub ends. All grades: 304, 316L, Duplex, 904L. ASME, ASTM, EN standards.",
+  keywords: ["SS/Carbon Steel pipe fittings catalog", "stainless steel/carbon steel flanges list", "butt weld fittings India", "forged fittings manufacturer Gujarat"],
   alternates: { canonical: "/products" },
 };
 
@@ -44,20 +44,31 @@ export default async function ProductsPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
 
       {/* Page Hero */}
-      <section className="bg-gradient-navy py-20 relative overflow-hidden">
-        <div className="absolute inset-0 hero-grid opacity-20" />
-        <div className="section-container relative">
+      <section className="py-24 relative overflow-hidden">
+        {/* Background Image */}
+        <div className="absolute inset-0 z-0">
+          <Image 
+            src="https://res.cloudinary.com/doudwrrwz/image/upload/q_auto/f_auto/v1779780568/ChatGPT_Image_May_26_2026_12_34_43_PM_rkaglo.png"
+            alt="Products Background"
+            fill
+            className="object-cover object-center"
+            priority
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-navy/90 via-navy/50 to-transparent" />
+        </div>
+
+        <div className="section-container relative z-10">
           <nav className="flex items-center gap-2 text-silver/60 text-xs mb-6">
             <Link href="/" className="hover:text-gold transition-colors">Home</Link>
             <span>/</span>
             <span className="text-gold">Products</span>
           </nav>
           <h1 className="section-heading-white mb-4">
-            SS Pipe Fittings &{" "}
+            SS/Carbon Steel Pipe Fittings &{" "}
             <span className="text-gradient-gold">Flanges Catalog</span>
           </h1>
-          <p className="text-silver/70 text-lg max-w-2xl leading-relaxed">
-            Manufacturer of SS butt weld fittings, flanges, forged fittings, pipe nipples 
+          <p className="text-silver/90 text-lg max-w-2xl leading-relaxed">
+            Manufacturer of SS/Carbon Steel butt weld fittings, flanges, forged fittings, pipe nipples 
             and stub ends in all grades — ASME B16.9, ASTM A403, EN 10253 and more.
           </p>
         </div>
@@ -136,7 +147,7 @@ export default async function ProductsPage() {
                           />
                         ) : (
                           <div className="w-14 h-14 rounded-2xl bg-navy/10 flex items-center justify-center">
-                            <span className="text-navy/40 font-display font-black text-xl">SS</span>
+                            <span className="text-navy/40 font-display font-black text-xl">SS/Carbon Steel</span>
                           </div>
                         )}
                       </div>
@@ -147,14 +158,6 @@ export default async function ProductsPage() {
                         {product.short_description && (
                           <p className="text-gray-500 text-xs line-clamp-2 mb-3">{product.short_description}</p>
                         )}
-                        <div className="flex flex-wrap gap-1 mb-3">
-                          {Array.isArray(product.material_grades) && product.material_grades.slice(0, 3).map((g: string) => (
-                            <span key={g} className="grade-badge text-[10px]">{g}</span>
-                          ))}
-                          {Array.isArray(product.material_grades) && product.material_grades.length > 3 && (
-                            <span className="grade-badge text-[10px]">+{product.material_grades.length - 3}</span>
-                          )}
-                        </div>
                         <div className="flex items-center gap-1 text-gold text-xs font-semibold">
                           Get Quote <ArrowRight size={11} />
                         </div>

@@ -15,7 +15,7 @@ export const AutoReplyEmail = ({ fullName }: AutoReplyEmailProps) => {
           {/* Header */}
           <Section style={header}>
             <Heading style={headerTitle}>Angel Metal & Alloys</Heading>
-            <Text style={headerSubtitle}>Premium SS Pipe Fittings & Flanges</Text>
+            <Text style={headerSubtitle}>Premium SS/Carbon Steel Pipe Fittings & Flanges</Text>
           </Section>
 
           {/* Content */}

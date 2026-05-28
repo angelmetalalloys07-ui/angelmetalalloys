@@ -33,7 +33,7 @@ export default function ProductCategories() {
           </div>
           <h2 className="section-heading mb-4">
             Complete Range of{" "}
-            <span className="text-gradient-gold">SS Pipe Fittings</span>
+            <span className="text-gradient-gold">SS/Carbon Steel Pipe Fittings</span>
           </h2>
           <p className="section-desc mx-auto text-center">
             From butt weld fittings to precision flanges — all manufactured in-house at our 

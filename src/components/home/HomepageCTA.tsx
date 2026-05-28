@@ -67,7 +67,7 @@ export default function HomepageCTA() {
             </div>
             <h2 className="section-heading-white mb-6">
               Ready to Source{" "}
-              <span className="text-gradient-gold">Premium SS Fittings?</span>
+              <span className="text-gradient-gold">Premium SS/Carbon Steel Fittings?</span>
             </h2>
             <p className="text-silver/70 text-lg leading-relaxed mb-8">
               Tell us your requirements — product type, grade, size, quantity, and delivery port. 
@@ -176,7 +176,7 @@ export default function HomepageCTA() {
                   <div>
                     <input
                       {...register("product_category")}
-                      placeholder="Product Interest (e.g. SS 316L Butt Weld Elbow 6&quot;)"
+                      placeholder="Product Interest (e.g. SS/Carbon Steel 316L Butt Weld Elbow 6&quot;)"
                       className="form-input bg-white/10 border-white/20 text-white placeholder:text-silver/50 focus:border-gold focus:ring-gold/20"
                     />
                   </div>

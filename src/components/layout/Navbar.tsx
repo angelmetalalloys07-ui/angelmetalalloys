@@ -34,11 +34,9 @@ export default function Navbar() {
       <div className="bg-navy text-white py-1.5 hidden lg:block border-b border-white/5">
         <div className="section-container flex items-center justify-between text-xs font-medium">
           <div className="flex items-center gap-6">
-            <div className="flex items-center gap-2 text-silver/80 hover:text-white transition-colors">
-              <Phone size={14} className="text-gold" />
+            <div className="flex items-center gap-2">
+              <Phone size={12} className="text-gold" />
               <a href="tel:+919974334455">+91 9974334455</a>
-              <span className="text-silver/30">|</span>
-              <a href="tel:+919825003949">+91 9825003949</a>
             </div>
             <div className="flex items-center gap-2 text-silver/80 hover:text-white transition-colors">
               <Mail size={14} className="text-gold" />
@@ -49,10 +47,6 @@ export default function Navbar() {
             <div className="flex items-center gap-1.5 text-gold bg-gold/10 px-2 py-0.5 rounded-sm">
               <Globe size={12} />
               <span>Worldwide Export</span>
-            </div>
-            <div className="flex items-center gap-1.5 text-green-400 bg-green-400/10 px-2 py-0.5 rounded-sm">
-              <ShieldCheck size={12} />
-              <span>GST: 24ESRPM8437G1Z6</span>
             </div>
           </div>
         </div>
@@ -113,7 +107,7 @@ export default function Navbar() {
                       className="group/item flex items-start gap-3 p-2 rounded-lg hover:bg-brand-bg transition-colors"
                     >
                       <div className="w-8 h-8 rounded-md bg-navy/5 flex items-center justify-center text-navy group-hover/item:bg-navy group-hover/item:text-gold transition-colors flex-shrink-0">
-                        <span className="font-display font-bold text-sm">SS</span>
+                        <span className="font-display font-bold text-sm">SS/Carbon Steel</span>
                       </div>
                       <div>
                         <div className="text-sm font-bold text-navy group-hover/item:text-gold transition-colors mb-0.5">

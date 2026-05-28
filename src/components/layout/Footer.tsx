@@ -18,7 +18,6 @@ const industryLinks = [
   { label: "Water Treatment", href: "/industries#water-treatment" },
   { label: "Power Generation", href: "/industries#power-generation" },
   { label: "Pharmaceutical", href: "/industries#pharmaceutical" },
-  { label: "Shipbuilding", href: "/industries#shipbuilding" },
 ];
 
 const companyLinks = [
@@ -49,7 +48,7 @@ export default function Footer() {
     email: "angelmetalalloys@gmail.com",
     address: {
       "@type": "PostalAddress",
-      streetAddress: "B-917 Sun West Bank, Opp Rajasthan Hospital",
+      streetAddress: "B-820 Sun West Bank, Opp Rajasthan Hospital",
       addressLocality: "Ahmedabad",
       addressRegion: "Gujarat",
       postalCode: "380013",
@@ -103,7 +102,7 @@ export default function Footer() {
               />
             </div>
             <p className="text-silver text-sm leading-relaxed mb-6">
-              Manufacturer & exporter of premium Stainless Steel pipe fittings, flanges & forged components. 
+              Manufacturer & exporter of premium Stainless Steel/Carbon Steel pipe fittings, flanges & forged components. 
               Serving 30+ countries with ISO-certified quality since 2007.
             </p>
             <div className="space-y-3 text-sm">
@@ -111,7 +110,7 @@ export default function Footer() {
                 <MapPin size={15} className="text-gold flex-shrink-0 mt-0.5" />
                 <div>
                   <div className="font-medium text-white text-xs mb-0.5">Office</div>
-                  B-917 Sun West Bank, Opp Rajasthan Hospital,<br />
+                  B-820 Sun West Bank, Opp Rajasthan Hospital,<br />
                   Ahmedabad – 380013, Gujarat, India
                 </div>
               </div>
@@ -182,12 +181,6 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href="tel:+919825003949" className="flex items-center gap-3 text-silver text-sm hover:text-gold transition-colors">
-                  <Phone size={14} className="text-gold flex-shrink-0" />
-                  +91 9825003949
-                </a>
-              </li>
-              <li>
                 <a href="tel:+919712012040" className="flex items-center gap-3 text-silver text-sm hover:text-gold transition-colors">
                   <Phone size={14} className="text-gold flex-shrink-0" />
                   +91 9712012040
@@ -218,7 +211,6 @@ export default function Footer() {
         <div className="section-container py-5 flex flex-col sm:flex-row justify-between items-center gap-3 text-xs text-silver/60">
           <div>
             © {new Date().getFullYear()} Angel Metal & Alloys. All rights reserved. | 
-            GST: <span className="text-silver/80">24ESRPM8437G1Z6</span> | 
             Proprietor: <span className="text-silver/80">Mahendra Mehta</span>
           </div>
           <div className="flex items-center gap-1">

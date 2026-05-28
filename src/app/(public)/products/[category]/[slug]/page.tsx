@@ -119,7 +119,7 @@ export default async function ProductDetailPage({ params }: Props) {
                       />
                     ) : (
                       <div className="text-center">
-                        <div className="text-navy/20 font-display font-black text-6xl mb-2">SS</div>
+                        <div className="text-navy/20 font-display font-black text-6xl mb-2">SS/Carbon Steel</div>
                         <div className="text-navy/30 text-sm font-semibold tracking-widest uppercase">Premium Quality</div>
                       </div>
                     )}

@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 };
 
 const certifications = [
-  { code: "ISO", title: "ISO 9001:2015", body: "Bureau Veritas", desc: "Quality Management System certification covering design, manufacture, and supply of SS pipe fittings and flanges." },
+  { code: "ISO", title: "ISO 9001:2015", body: "Bureau Veritas", desc: "Quality Management System certification covering design, manufacture, and supply of SS/Carbon Steel pipe fittings and flanges." },
   { code: "ASME", title: "ASME B16.9 / B16.5", body: "ASME International", desc: "All butt weld fittings and flanges manufactured and tested per ASME standards." },
   { code: "ASTM", title: "ASTM A403 / A182", body: "ASTM International", desc: "Material sourced from ASTM-certified mills. Chemical & mechanical test reports included." },
   { code: "EN", title: "EN 10253 / EN 1092", body: "European Committee", desc: "European standard compliance for export to EU countries." },

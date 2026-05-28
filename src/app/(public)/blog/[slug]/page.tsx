@@ -113,11 +113,11 @@ export default async function BlogPostPage({ params }: Props) {
     relatedProducts = [
       { name: "Butt Weld Fittings", slug: "butt-weld-fittings", category: "fittings", image: "/placeholder.png" },
       { name: "Forged Fittings", slug: "forged-fittings", category: "fittings", image: "/placeholder.png" },
-      { name: "SS Pipes & Tubes", slug: "ss-pipes-tubes", category: "pipes", image: "/placeholder.png" },
+      { name: "SS/Carbon Steel Pipes & Tubes", slug: "ss-pipes-tubes", category: "pipes", image: "/placeholder.png" },
     ];
   } else if (post.slug === "asme-b16-5-flange-pressure-class-selection-guide") {
     relatedProducts = [
-      { name: "SS Flanges (Weld Neck)", slug: "weld-neck-flange", category: "flanges", image: "/placeholder.png" },
+      { name: "SS/Carbon Steel Flanges (Weld Neck)", slug: "weld-neck-flange", category: "flanges", image: "/placeholder.png" },
       { name: "Blind Flange", slug: "blind-flange", category: "flanges", image: "/placeholder.png" },
       { name: "Slip-On Flange", slug: "slip-on-flange", category: "flanges", image: "/placeholder.png" },
     ];
@@ -224,7 +224,7 @@ export default async function BlogPostPage({ params }: Props) {
                 <div className="border border-gray-200 p-6">
                   <h3 className="font-display font-bold text-navy text-lg mb-4 border-b border-gray-200 pb-2">Related Topics</h3>
                   <ul className="space-y-3">
-                    <li><Link href="/materials" className="text-gray-600 hover:text-gold text-sm font-medium">Stainless Steel Grades</Link></li>
+                    <li><Link href="/materials" className="text-gray-600 hover:text-gold text-sm font-medium">Stainless Steel/Carbon Steel Grades</Link></li>
                     <li><Link href="/products/flanges" className="text-gray-600 hover:text-gold text-sm font-medium">Flange Dimensions</Link></li>
                     <li><Link href="/products/butt-weld-fittings" className="text-gray-600 hover:text-gold text-sm font-medium">Pipe Fittings</Link></li>
                     <li><Link href="/industries" className="text-gray-600 hover:text-gold text-sm font-medium">Industry Applications</Link></li>

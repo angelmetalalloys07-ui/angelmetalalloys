@@ -196,7 +196,7 @@ export default function ProductsPage() {
                           {product.primary_image_url ? (
                             <img src={product.primary_image_url} alt={product.name} className="w-full h-full object-cover" />
                           ) : (
-                            <span className="text-gray-300 font-bold text-xs">SS</span>
+                            <span className="text-gray-300 font-bold text-xs">SS/Carbon Steel</span>
                           )}
                           <div className="absolute inset-0 bg-black/50 hidden group-hover:flex items-center justify-center cursor-pointer">
                             <CldUploadWidget

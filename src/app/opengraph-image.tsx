@@ -55,7 +55,7 @@ export default async function Image() {
           </div>
           
           <div style={{ fontSize: 32, color: '#94a3b8', textAlign: 'center', maxWidth: '800px', lineHeight: 1.4 }}>
-            Manufacturer & Exporter of Stainless Steel Pipe Fittings, Flanges & Forged Components
+            Manufacturer & Exporter of Stainless Steel/Carbon Steel Pipe Fittings, Flanges & Forged Components
           </div>
         </div>
 

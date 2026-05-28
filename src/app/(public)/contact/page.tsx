@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { InquirySchema, type InquiryFormData } from "@/lib/validations";
@@ -62,13 +63,24 @@ export default function ContactPage() {
   return (
     <>
       {/* Hero */}
-      <section className="bg-gradient-navy py-20 relative overflow-hidden">
-        <div className="absolute inset-0 hero-grid opacity-20" />
-        <div className="section-container relative">
+      <section className="py-24 relative overflow-hidden">
+        {/* Background Image */}
+        <div className="absolute inset-0 z-0">
+          <Image 
+            src="https://res.cloudinary.com/doudwrrwz/image/upload/q_auto/f_auto/v1779779417/ChatGPT_Image_May_26_2026_12_39_40_PM_d4rlf0.png"
+            alt="Contact Us Background"
+            fill
+            className="object-cover object-center"
+            priority
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-navy/90 via-navy/50 to-transparent" />
+        </div>
+
+        <div className="section-container relative z-10">
           <h1 className="section-heading-white mb-4">
             Contact <span className="text-gradient-gold">Angel Metal & Alloys</span>
           </h1>
-          <p className="text-silver/70 text-lg max-w-2xl">
+          <p className="text-silver/90 text-lg max-w-2xl">
             Get in touch for product inquiries, pricing, technical specifications, and export queries. 
             Our team responds within 4 business hours.
           </p>
@@ -89,7 +101,7 @@ export default function ContactPage() {
                   <h3 className="font-display font-bold text-navy">Office Address</h3>
                 </div>
                 <p className="text-gray-600 text-sm leading-relaxed">
-                  B-917 Sun West Bank,<br />
+                  B-820 Sun West Bank,<br />
                   Opp Rajasthan Hospital,<br />
                   Ahmedabad – 380013,<br />
                   Gujarat, India
@@ -120,7 +132,7 @@ export default function ContactPage() {
                   <h3 className="font-display font-bold text-navy">Phone / WhatsApp</h3>
                 </div>
                 <div className="space-y-2">
-                  {["+91 9974334455", "+91 9825003949", "+91 9712012040"].map((phone) => (
+                  {["+91 9974334455", "+91 9712012040"].map((phone) => (
                     <a key={phone} href={`tel:${phone.replace(/\s/g, "")}`}
                       className="flex items-center gap-2 text-gray-600 text-sm hover:text-gold transition-colors">
                       <Phone size={13} className="text-gold/50" /> {phone}
@@ -148,7 +160,6 @@ export default function ContactPage() {
 
               {/* GST */}
               <div className="bg-brand-bg border border-gray-200 rounded-xl px-5 py-3 text-sm text-gray-500">
-                <span className="font-semibold text-navy">GST No.:</span> 24ESRPM8437G1Z6<br />
                 <span className="font-semibold text-navy">Proprietor:</span> Mahendra Mehta
               </div>
             </div>
@@ -224,7 +235,7 @@ export default function ContactPage() {
                           Product Interest
                         </label>
                         <input {...register("product_category")} className="form-input"
-                          placeholder="e.g. SS 316L Butt Weld Elbow 6&quot;" />
+                          placeholder="e.g. SS/Carbon Steel 316L Butt Weld Elbow 6&quot;" />
                       </div>
                     </div>
 

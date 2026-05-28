@@ -251,7 +251,7 @@ export default function ProductForm({ initialData, isEdit }: ProductFormProps) {
                     type="text" 
                     value={grade} onChange={e => handleGradeChange(idx, e.target.value)}
                     className="w-full form-input py-1.5 text-sm bg-gray-50"
-                    placeholder="e.g. SS 304/304L"
+                    placeholder="e.g. SS/Carbon Steel 304/304L"
                   />
                   <button type="button" onClick={() => removeGrade(idx)} className="text-red-500 hover:bg-red-50 p-1.5 rounded"><X size={14} /></button>
                 </div>

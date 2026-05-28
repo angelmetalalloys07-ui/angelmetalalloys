@@ -29,7 +29,7 @@ const features = [
     icon: FlaskConical,
     title: "All Grades Available",
     description:
-      "SS 304/316L, 321, 347, 904L, Duplex 2205, Super Duplex 2507, Hastelloy, Inconel — all grades in stock.",
+      "SS/Carbon Steel 304/316L, 321, 347, 904L, Duplex 2205, Super Duplex 2507, Hastelloy, Inconel — all grades in stock.",
     color: "text-steel",
     bg: "bg-steel/10",
   },
