@@ -144,7 +144,7 @@ export async function sendInquiryNotification(inquiry: Inquiry) {
   try {
     const data = await resend.emails.send({
       from: 'Angel Metal Admin <admin@angelmetalalloys.com>', // Assuming verified domain
-      to: process.env.ADMIN_EMAIL || 'angelmetalalloys@gmail.com',
+      to: process.env.ADMIN_EMAIL || 'info@angelalloys.com',
       subject: subject,
       html: html,
     });
@@ -216,7 +216,7 @@ export async function sendAutoReply(inquiry: Inquiry) {
       to: inquiry.email,
       subject: subject,
       html: html,
-      replyTo: 'angelmetalalloys@gmail.com',
+      replyTo: 'info@angelalloys.com',
     });
     return { success: true, data };
   } catch (error) {

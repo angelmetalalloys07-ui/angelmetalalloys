@@ -106,7 +106,7 @@ export async function POST(req: Request) {
     try {
       await resend.emails.send({
         from: process.env.RESEND_FROM_EMAIL ?? "onboarding@resend.dev",
-        to: [process.env.INQUIRY_NOTIFICATION_EMAIL ?? "angelmetalalloys@gmail.com"],
+        to: [process.env.INQUIRY_NOTIFICATION_EMAIL ?? "info@angelalloys.com"],
         subject: `New Inquiry #${inquiryId} — ${validatedData.product_category || "General"} from ${validatedData.company_name || validatedData.full_name}, ${validatedData.country}`,
         react: InquiryNotificationEmail({
           inquiry: {

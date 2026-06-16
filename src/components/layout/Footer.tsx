@@ -45,7 +45,7 @@ export default function Footer() {
     "@id": "https://www.angelmetalalloys.com",
     url: "https://www.angelmetalalloys.com",
     telephone: "+91-9974334455",
-    email: "angelmetalalloys@gmail.com",
+    email: "info@angelalloys.com",
     address: {
       "@type": "PostalAddress",
       streetAddress: "B-820 Sun West Bank, Opp Rajasthan Hospital",
@@ -187,9 +187,9 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href="mailto:angelmetalalloys@gmail.com" className="flex items-center gap-3 text-silver text-sm hover:text-gold transition-colors break-all">
+                <a href="mailto:info@angelalloys.com" className="flex items-center gap-3 text-silver text-sm hover:text-gold transition-colors break-all">
                   <Mail size={14} className="text-gold flex-shrink-0" />
-                  angelmetalalloys@gmail.com
+                  info@angelalloys.com
                 </a>
               </li>
             </ul>

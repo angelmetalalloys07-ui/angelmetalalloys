@@ -76,7 +76,7 @@ vercel --prod
 | `CLOUDINARY_API_SECRET` | Cloudinary API secret | `__uiW2Q...` |
 | `RESEND_API_KEY` | Resend email API key | `re_...` |
 | `RESEND_FROM_EMAIL` | Verified sender email | `inquiries@angelmetalalloys.com` |
-| `INQUIRY_NOTIFICATION_EMAIL` | Admin notification recipient | `angelmetalalloys@gmail.com` |
+| `INQUIRY_NOTIFICATION_EMAIL` | Admin notification recipient | `info@angelalloys.com` |
 | `ADMIN_SECRET_PASSWORD` | Admin portal master password | `AngelMetal2026!` |
 | `JWT_SECRET` | 64-char random hex for JWT signing | `4be1b6c4...` |
 | `NEXT_PUBLIC_SITE_URL` | Production site URL | `https://www.angelmetalalloys.com` |
@@ -109,7 +109,7 @@ vercel --prod
 - [ ] Visit `/products/ss-flanges` — product detail page loads ✓
 - [ ] Visit `/contact` — contact form renders ✓
 - [ ] Submit a test inquiry on `/contact` — success message shows ✓
-- [ ] Admin receives notification email at `angelmetalalloys@gmail.com` ✓
+- [ ] Admin receives notification email at `info@angelalloys.com` ✓
 - [ ] Customer receives auto-reply email ✓
 - [ ] Visit `/request-quote` — quote form works ✓
 - [ ] Visit `/sitemap.xml` — XML sitemap renders ✓

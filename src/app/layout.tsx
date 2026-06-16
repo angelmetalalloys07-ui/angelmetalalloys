@@ -87,7 +87,7 @@ const organizationJsonLd = {
     "Manufacturer & exporter of Stainless Steel/Carbon Steel pipe fittings, flanges and forged components based in Ahmedabad, Gujarat, India.",
   foundingDate: "2007",
   telephone: "+91-9974334455",
-  email: "angelmetalalloys@gmail.com",
+  email: "info@angelalloys.com",
   address: {
     "@type": "PostalAddress",
     streetAddress: "B-820 Sun West Bank, Opp Rajasthan Hospital",
@@ -110,7 +110,7 @@ const organizationJsonLd = {
     },
     {
       "@type": "ContactPoint",
-      email: "angelmetalalloys@gmail.com",
+      email: "info@angelalloys.com",
       contactType: "customer service",
     },
   ],

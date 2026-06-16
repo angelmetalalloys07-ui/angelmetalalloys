@@ -67,7 +67,7 @@ export async function submitInquiry(
   try {
     await resend.emails.send({
       from: process.env.RESEND_FROM_EMAIL ?? "onboarding@resend.dev",
-      to: [process.env.INQUIRY_NOTIFICATION_EMAIL ?? "angelmetalalloys@gmail.com"],
+      to: [process.env.INQUIRY_NOTIFICATION_EMAIL ?? "info@angelalloys.com"],
       subject: `New Inquiry from ${parsed.data.full_name} (${parsed.data.country ?? "Unknown"}) — Angel Metal & Alloys`,
       react: InquiryNotificationEmail({ inquiry: data as any }),
     });
@@ -124,7 +124,7 @@ export async function submitQuote(
   try {
     await resend.emails.send({
       from: process.env.RESEND_FROM_EMAIL ?? "onboarding@resend.dev",
-      to: [process.env.INQUIRY_NOTIFICATION_EMAIL ?? "angelmetalalloys@gmail.com"],
+      to: [process.env.INQUIRY_NOTIFICATION_EMAIL ?? "info@angelalloys.com"],
       subject: `Quote Request: ${parsed.data.product_category} from ${parsed.data.company_name} (${parsed.data.country})`,
       react: InquiryNotificationEmail({ inquiry: data as any }),
     });

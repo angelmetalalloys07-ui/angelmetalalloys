@@ -226,8 +226,8 @@ export default function RequestQuotePage() {
                 <a href="tel:+919712012040" className="flex items-center gap-3 text-gray-600 text-sm hover:text-gold transition-colors">
                   <Phone size={15} className="text-gold" /> +91 9712012040
                 </a>
-                <a href="mailto:angelmetalalloys@gmail.com" className="flex items-center gap-3 text-gold text-sm hover:underline break-all">
-                  <Mail size={15} className="text-gold flex-shrink-0" /> angelmetalalloys@gmail.com
+                <a href="mailto:info@angelalloys.com" className="flex items-center gap-3 text-gold text-sm hover:underline break-all">
+                  <Mail size={15} className="text-gold flex-shrink-0" /> info@angelalloys.com
                 </a>
               </div>
               <div className="bg-brand-bg border border-gray-200 rounded-2xl p-6 space-y-3">

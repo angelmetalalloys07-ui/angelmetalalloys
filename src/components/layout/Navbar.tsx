@@ -40,7 +40,7 @@ export default function Navbar() {
             </div>
             <div className="flex items-center gap-2 text-silver/80 hover:text-white transition-colors">
               <Mail size={14} className="text-gold" />
-              <a href="mailto:angelmetalalloys@gmail.com">angelmetalalloys@gmail.com</a>
+              <a href="mailto:info@angelalloys.com">info@angelalloys.com</a>
             </div>
           </div>
           <div className="flex items-center gap-4">
@@ -272,7 +272,7 @@ export default function Navbar() {
             </div>
             <div className="flex items-center gap-2 text-gray-600 text-sm">
               <Mail size={16} className="text-gold" />
-              <a href="mailto:angelmetalalloys@gmail.com">angelmetalalloys@gmail.com</a>
+              <a href="mailto:info@angelalloys.com">info@angelalloys.com</a>
             </div>
           </div>
         </div>

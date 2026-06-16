@@ -187,7 +187,7 @@ At Angel Metal & Alloys, every consignment is dispatched with full MTC traceabil
 Angel Metal & Alloys manufactures and stocks all the grades listed in this guide — from SS/Carbon Steel 304 to Super Duplex 2507 — in butt weld fittings, flanges, forged fittings, pipes, and fasteners. Our technical team in Ahmedabad provides free grade recommendation for your specific application.
 
 **Call us:** +91 9974334455
-**Email:** angelmetalalloys@gmail.com
+**Email:** info@angelalloys.com
 **WhatsApp:** +91 9974334455
 
 *Angel Metal & Alloys, B-820 Sun West Bank, Ahmedabad – 380013, Gujarat, India*`,
@@ -404,7 +404,7 @@ Angel Metal & Alloys manufactures and stocks SS/Carbon Steel flanges in all seve
 Our experienced team can review your line list or P&ID and recommend the correct class and grade for every line — at no charge.
 
 **Call us:** +91 9974334455
-**Email:** angelmetalalloys@gmail.com
+**Email:** info@angelalloys.com
 **Request Quote:** angelmetalalloys.com/request-quote
 
 *Angel Metal & Alloys, B-820 Sun West Bank, Opp Rajasthan Hospital, Ahmedabad – 380013, Gujarat, India. Est. 2007. Exporting to 30+ countries.*`,

@@ -149,9 +149,9 @@ export default function ContactPage() {
                   </div>
                   <h3 className="font-display font-bold text-navy">Email</h3>
                 </div>
-                <a href="mailto:angelmetalalloys@gmail.com"
+                <a href="mailto:info@angelalloys.com"
                   className="text-gold text-sm hover:underline break-all">
-                  angelmetalalloys@gmail.com
+                  info@angelalloys.com
                 </a>
                 <div className="flex items-center gap-2 text-gray-500 text-xs mt-2">
                   <Clock size={12} /> Responds within 4 business hours
